@@ -13,7 +13,7 @@ public class PlayerStateManager : MonoBehaviour
 	SimpleState setupState, menuState, connectState, playState, disconnectState;
 
 	public GameObject padPrefab;
-	public List<Pad> pads = new List<Pad>();
+	//public List<Pad> pads = new List<Pad>();
 	public List<Color> padColors;
 
 	public int padCount = 0;
@@ -121,7 +121,7 @@ public class PlayerStateManager : MonoBehaviour
 		if (isMe)
 		{
 			// Handle new pad creation
-			foreach (Finger finger in GestureHandler.instance.fingers) 
+			/*foreach (Finger finger in GestureHandler.instance.fingers) 
 			{
 				// Create new pads for new finger touches that miss all pads
 				if (finger.isNew())
@@ -145,13 +145,13 @@ public class PlayerStateManager : MonoBehaviour
 				{
 					MainStateManager.Instance.SendPadDestroyed(pad.id);
 				}
-			}
+			}*/
 		}
 
-		CleanPads();
+		//CleanPads();
 	}
 
-		void CleanPads()
+		/*void CleanPads()
 		{
 			// Clean up dead pads
 			List<Pad> valids = new List<Pad>();
@@ -167,7 +167,7 @@ public class PlayerStateManager : MonoBehaviour
 				}
 			}
 			pads = valids;
-		}
+		}*/
 
 	void PlayExit() {}
 	#endregion
@@ -183,7 +183,7 @@ public class PlayerStateManager : MonoBehaviour
 	}
 	#endregion
 
-	public Pad CreatePad(Vector3 position)
+	/*public Pad CreatePad(Vector3 position)
 	{
 		GameObject newPadObject = Instantiate(padPrefab, new Vector3(position.x, position.y, 0f), Quaternion.identity) as GameObject;
 		Pad newPad = newPadObject.GetComponent<Pad>();
@@ -240,5 +240,5 @@ public class PlayerStateManager : MonoBehaviour
 				pad.isDead = true;
 			}
 		}
-	}
+	}*/
 }

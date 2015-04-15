@@ -92,9 +92,9 @@ public class MainStateManager : NetworkObj {
 		Debug.Log("Initialize Network Functions");
 		networkFunctions = new ByteParamDelegate[(int) Functions.Length];
 		networkFunctions[(int) Functions.JoinRequest] = PlayerJoinRequest;
-		networkFunctions[(int) Functions.PadUpdated] = PadUpdated;
+		/*networkFunctions[(int) Functions.PadUpdated] = PadUpdated;
 		networkFunctions[(int) Functions.PadDestroyed] = PadDestroyed;
-		networkFunctions[(int) Functions.DoubleTapped] = DoubleTapped;
+		networkFunctions[(int) Functions.DoubleTapped] = DoubleTapped;*/
 		NetworkHandler.RegisterNetworkedMessage(ReceiveNetworkCall, (int) NetObject.MainStateManager);
 		NetworkHandler.AddPlayerConnectListener(FriendConnected);
 	}
@@ -131,7 +131,7 @@ public class MainStateManager : NetworkObj {
 		}
 	}
 
-	public void PadUpdated(byte[] data)
+	/*public void PadUpdated(byte[] data)
 	{
 		UnitySerializer serializer = new UnitySerializer(data);
 		serializer.DeserializeInt();	// net object
@@ -208,6 +208,6 @@ public class MainStateManager : NetworkObj {
 		serializer.Serialize(position);
 
 		NetworkHandler.NetworkCallSend((int) NetObject.MainStateManager, serializer.ByteArray, RPCMode.Others);
-	}
+	}*/
 	#endregion
 }
