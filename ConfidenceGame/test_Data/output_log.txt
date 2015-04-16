@@ -12,7 +12,7 @@ Platform assembly: C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\t
 Loading C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
 Platform assembly: C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
 Loading C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-- Completed reload, in  0.090 seconds
+- Completed reload, in  0.094 seconds
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 XInput1_3.dll not found.
@@ -141,7 +141,7 @@ PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\Con
 Friend Connected
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-MainStateManager:FriendConnected(NetworkPlayer) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:114)
+MainStateManager:FriendConnected(NetworkPlayer) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:115)
 NetworkHandler:OnPlayerConnected(NetworkPlayer) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\Networking\NetworkHandler.cs:95)
  
 (Filename: C Line: 0)
@@ -217,7 +217,7 @@ PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\Con
 sending points scored: 1
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-MainStateManager:SendPointsScored(Int32) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:150)
+MainStateManager:SendPointsScored(Int32) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:151)
 PlayerStateManager:PlayUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:128)
 SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
 PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:69)
@@ -228,7 +228,7 @@ PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\Con
 sending points scored: 1
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-MainStateManager:SendPointsScored(Int32) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:150)
+MainStateManager:SendPointsScored(Int32) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:151)
 PlayerStateManager:PlayUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:128)
 SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
 PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:69)
@@ -239,7 +239,7 @@ PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\Con
 sending points scored: 1
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-MainStateManager:SendPointsScored(Int32) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:150)
+MainStateManager:SendPointsScored(Int32) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:151)
 PlayerStateManager:PlayUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:128)
 SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
 PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:69)
@@ -250,7 +250,7 @@ PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\Con
 sending points scored: 1
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-MainStateManager:SendPointsScored(Int32) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:150)
+MainStateManager:SendPointsScored(Int32) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:151)
 PlayerStateManager:PlayUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:128)
 SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
 PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:69)
@@ -258,39 +258,37 @@ PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\Con
  
 (Filename: C Line: 0)
 
-ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
-Parameter name: startIndex
-  at System.BitConverter.PutBytes (System.Byte* dst, System.Byte[] src, Int32 start_index, Int32 count) [0x00064] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System/BitConverter.cs:188 
-  at System.BitConverter.ToInt32 (System.Byte[] value, Int32 startIndex) [0x00000] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System/BitConverter.cs:228 
-  at MainStateManager.ReceiveNetworkCall (System.Byte[] data) [0x00000] in C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:106 
-  at NetworkHandler.NetworkCallReceive (Int32 functionId, System.Byte[] data) [0x00000] in C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\Networking\NetworkHandler.cs:54 
+12
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+MainStateManager:ReceiveNetworkCall(Byte[]) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:106)
+NetworkHandler:NetworkCallReceive(Int32, Byte[]) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\Networking\NetworkHandler.cs:54)
  
 (Filename: C Line: 0)
 
-ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
-Parameter name: startIndex
-  at System.BitConverter.PutBytes (System.Byte* dst, System.Byte[] src, Int32 start_index, Int32 count) [0x00064] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System/BitConverter.cs:188 
-  at System.BitConverter.ToInt32 (System.Byte[] value, Int32 startIndex) [0x00000] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System/BitConverter.cs:228 
-  at MainStateManager.ReceiveNetworkCall (System.Byte[] data) [0x00000] in C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:106 
-  at NetworkHandler.NetworkCallReceive (Int32 functionId, System.Byte[] data) [0x00000] in C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\Networking\NetworkHandler.cs:54 
+opponent points scored: 1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+MainStateManager:PointsScored(Byte[]) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:145)
+MainStateManager:ReceiveNetworkCall(Byte[]) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:108)
+NetworkHandler:NetworkCallReceive(Int32, Byte[]) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\Networking\NetworkHandler.cs:54)
  
 (Filename: C Line: 0)
 
-ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
-Parameter name: startIndex
-  at System.BitConverter.PutBytes (System.Byte* dst, System.Byte[] src, Int32 start_index, Int32 count) [0x00064] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System/BitConverter.cs:188 
-  at System.BitConverter.ToInt32 (System.Byte[] value, Int32 startIndex) [0x00000] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System/BitConverter.cs:228 
-  at MainStateManager.ReceiveNetworkCall (System.Byte[] data) [0x00000] in C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:106 
-  at NetworkHandler.NetworkCallReceive (Int32 functionId, System.Byte[] data) [0x00000] in C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\Networking\NetworkHandler.cs:54 
+12
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+MainStateManager:ReceiveNetworkCall(Byte[]) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:106)
+NetworkHandler:NetworkCallReceive(Int32, Byte[]) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\Networking\NetworkHandler.cs:54)
  
 (Filename: C Line: 0)
 
-ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
-Parameter name: startIndex
-  at System.BitConverter.PutBytes (System.Byte* dst, System.Byte[] src, Int32 start_index, Int32 count) [0x00064] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System/BitConverter.cs:188 
-  at System.BitConverter.ToInt32 (System.Byte[] value, Int32 startIndex) [0x00000] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System/BitConverter.cs:228 
-  at MainStateManager.ReceiveNetworkCall (System.Byte[] data) [0x00000] in C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:106 
-  at NetworkHandler.NetworkCallReceive (Int32 functionId, System.Byte[] data) [0x00000] in C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\Networking\NetworkHandler.cs:54 
+opponent points scored: 1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+MainStateManager:PointsScored(Byte[]) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:145)
+MainStateManager:ReceiveNetworkCall(Byte[]) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:108)
+NetworkHandler:NetworkCallReceive(Int32, Byte[]) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\Networking\NetworkHandler.cs:54)
  
 (Filename: C Line: 0)
 

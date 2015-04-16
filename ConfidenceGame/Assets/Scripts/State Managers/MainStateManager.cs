@@ -103,6 +103,7 @@ public class MainStateManager : NetworkObj {
 
 	public override void ReceiveNetworkCall (byte[] data)
 	{
+		Debug.Log (data.Length);
 		int function = System.BitConverter.ToInt32(data, sizeof(int));
 		networkFunctions[function](data);
 		//Debug.Log("Received Network Call for function " + function);
@@ -149,6 +150,9 @@ public class MainStateManager : NetworkObj {
 	{
 		Debug.Log ("sending points scored: " + amt);
 		UnitySerializer serializer = new UnitySerializer();
+		serializer.Serialize((int) Functions.PointsScored);
+		serializer.Serialize ((int) Functions.PointsScored);
+
 		serializer.Serialize((int)amt);
 		
 		NetworkHandler.NetworkCallSend((int) NetObject.MainStateManager, serializer.ByteArray, RPCMode.Others);
