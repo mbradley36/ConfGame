@@ -950,10 +950,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f01e66a1fdc06548af77d3bb5cfeeea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fingerCount: 0
-  debugFingers: 0
-  allowTouches: 1
-  allowMouse: 0
 --- !u!114 &995863380
 MonoBehaviour:
   m_ObjectHideFlags: 0
