@@ -8,6 +8,7 @@ public class PlayerStateManager : MonoBehaviour
 	private string networkPlayerString = "";
 	public bool initialized;
 	public bool isMe;
+	public GameObject opponentSprite, mySprite;
 
 	public SimpleStateMachine stateMachine;
 	SimpleState setupState, menuState, connectState, playState, disconnectState;
@@ -39,6 +40,7 @@ public class PlayerStateManager : MonoBehaviour
 		networkPlayer = player;
 		initialized = true;
 		networkPlayerString = "" + networkPlayer;
+
 	}
 
 	public void ResetNetworkPlayer(NetworkPlayer player)
@@ -118,59 +120,34 @@ public class PlayerStateManager : MonoBehaviour
 
 	void PlayUpdate() 
 	{
-		if (isMe)
+		if (Network.isServer)
 		{
-			// Handle new pad creation
-			/*foreach (Finger finger in GestureHandler.instance.fingers) 
-			{
-				// Create new pads for new finger touches that miss all pads
-				if (finger.isNew())
-				{
-					if(pads.Count < 1) {
-						CreatePad(finger);
-					} else {
-						ReturnPadToFinger(finger);
-					}
+			if (mySprite.transform.position.x < 13.36) {
+				if (Input.GetKeyDown (KeyCode.Return)) {
+					mySprite.transform.position = new Vector3 (mySprite.transform.position.x + 1, mySprite.transform.position.y, mySprite.transform.position.z);
+					MainStateManager.Instance.SendPointsScored(1);
 				}
 			}
-
-			// Handle pad network updates
-			foreach (Pad pad in pads)
-			{
-				if (!pad.isDead)
-				{
-					MainStateManager.Instance.SendPadUpdate(pad.id, pad.GetPosition3(), new Vector3(pad.color.r, pad.color.g, pad.color.b) );
+		} else {
+			if (mySprite.transform.position.x < 13.36) {
+				if (Input.GetKeyDown (KeyCode.Return)) {
+					opponentSprite.transform.position = new Vector3 (opponentSprite.transform.position.x + 1, opponentSprite.transform.position.y, opponentSprite.transform.position.z);
+					MainStateManager.Instance.SendPointsScored(1);
 				}
-				else
-				{
-					MainStateManager.Instance.SendPadDestroyed(pad.id);
-				}
-			}*/
+			}
 		}
-
-		//CleanPads();
 	}
-
-		/*void CleanPads()
-		{
-			// Clean up dead pads
-			List<Pad> valids = new List<Pad>();
-			foreach (Pad pad in pads)
-			{
-				if (!pad.isDead)
-				{
-					valids.Add(pad);
-				}
-				else 
-				{
-					Destroy(pad.gameObject);
-				}
-			}
-			pads = valids;
-		}*/
 
 	void PlayExit() {}
 	#endregion
+
+	public void MovedAmt(int points){
+		if(Network.isServer) {
+			opponentSprite.transform.position = new Vector3 (opponentSprite.transform.position.x + points, opponentSprite.transform.position.y, opponentSprite.transform.position.z);
+		} else {
+			mySprite.transform.position = new Vector3 (mySprite.transform.position.x + 1, mySprite.transform.position.y, mySprite.transform.position.z);
+		}
+	}
 
 	#region DISCONNECT
 	void DisconnectEnter() {}

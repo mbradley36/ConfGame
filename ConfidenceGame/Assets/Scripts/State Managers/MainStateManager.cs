@@ -81,9 +81,10 @@ public class MainStateManager : NetworkObj {
 	private enum Functions
 	{
 		JoinRequest,
-		PadUpdated,
+		PointsScored,
+		/*PadUpdated,
 		PadDestroyed,
-		DoubleTapped,
+		DoubleTapped,*/
 		Length
 	}
 
@@ -92,6 +93,7 @@ public class MainStateManager : NetworkObj {
 		Debug.Log("Initialize Network Functions");
 		networkFunctions = new ByteParamDelegate[(int) Functions.Length];
 		networkFunctions[(int) Functions.JoinRequest] = PlayerJoinRequest;
+		networkFunctions[(int) Functions.PointsScored] = PointsScored;
 		/*networkFunctions[(int) Functions.PadUpdated] = PadUpdated;
 		networkFunctions[(int) Functions.PadDestroyed] = PadDestroyed;
 		networkFunctions[(int) Functions.DoubleTapped] = DoubleTapped;*/
@@ -129,6 +131,27 @@ public class MainStateManager : NetworkObj {
 			friend.networkPlayer = player;
 			friend.Init();
 		}
+	}
+
+	public void PointsScored(byte[] data)
+	{	
+		UnitySerializer serializer = new UnitySerializer(data);
+		serializer.DeserializeInt();	// net object
+		serializer.DeserializeInt();	// function
+		int score = serializer.DeserializeInt();
+		friend.MovedAmt (score);
+
+		Debug.Log("opponent points scored: " + score);
+		//handle adjusting other player's score
+	}
+
+	public void SendPointsScored(int amt)
+	{
+		Debug.Log ("sending points scored: " + amt);
+		UnitySerializer serializer = new UnitySerializer();
+		serializer.Serialize((int)amt);
+		
+		NetworkHandler.NetworkCallSend((int) NetObject.MainStateManager, serializer.ByteArray, RPCMode.Others);
 	}
 
 	/*public void PadUpdated(byte[] data)

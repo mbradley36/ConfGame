@@ -12,7 +12,7 @@ Platform assembly: C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\t
 Loading C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
 Platform assembly: C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
 Loading C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-- Completed reload, in  0.058 seconds
+- Completed reload, in  0.090 seconds
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 XInput1_3.dll not found.
@@ -32,9 +32,9 @@ UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 SimpleStateMachine:SwitchStates(StateDelegate, StateDelegate, StateDelegate, String) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:37)
 SimpleStateMachine:SwitchStates(SimpleState) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:41)
-PlayerStateManager:Setup() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:57)
-PlayerStateManager:Init() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:34)
-PlayerStateManager:Start() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:23)
+PlayerStateManager:Setup() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:59)
+PlayerStateManager:Init() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:35)
+PlayerStateManager:Start() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:24)
  
 (Filename: C Line: 0)
 
@@ -43,16 +43,16 @@ UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 SimpleStateMachine:SwitchStates(StateDelegate, StateDelegate, StateDelegate, String) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:37)
 SimpleStateMachine:SwitchStates(SimpleState) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:41)
-PlayerStateManager:Setup() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:57)
-PlayerStateManager:Init() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:34)
-PlayerStateManager:Start() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:23)
+PlayerStateManager:Setup() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:59)
+PlayerStateManager:Init() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:35)
+PlayerStateManager:Start() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:24)
  
 (Filename: C Line: 0)
 
 Initialize Network Functions
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-MainStateManager:InitNetworkFunctions() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:92)
+MainStateManager:InitNetworkFunctions() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:93)
 MainStateManager:Setup() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:45)
 MainStateManager:Start() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:30)
  
@@ -72,10 +72,10 @@ UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 SimpleStateMachine:SwitchStates(StateDelegate, StateDelegate, StateDelegate, String) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:37)
 SimpleStateMachine:SwitchStates(SimpleState) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:41)
-PlayerStateManager:SetupUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:78)
+PlayerStateManager:SetupUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:80)
 SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
-PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:67)
-PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:52)
+PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:69)
+PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:54)
  
 (Filename: C Line: 0)
 
@@ -84,10 +84,33 @@ UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 SimpleStateMachine:SwitchStates(StateDelegate, StateDelegate, StateDelegate, String) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:37)
 SimpleStateMachine:SwitchStates(SimpleState) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:41)
-PlayerStateManager:SetupUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:78)
+PlayerStateManager:SetupUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:80)
 SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
-PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:67)
-PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:52)
+PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:69)
+PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:54)
+ 
+(Filename: C Line: 0)
+
+Server started
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+NetworkHandler:ServerStarted() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\Networking\NetworkHandler.cs:109)
+<VerifyServerRunning>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\Networking\NetworkInit.cs:66)
+UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:62)
+NetworkInit:StartServer() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\Networking\NetworkInit.cs:43)
+UnityEngine.Events.InvokableCall:Invoke(Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\Runtime\Export\UnityEvent.cs:110)
+UnityEngine.Events.InvokableCallList:Invoke(Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\Runtime\Export\UnityEvent.cs:575)
+UnityEngine.Events.UnityEventBase:Invoke(Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\Runtime\Export\UnityEvent.cs:717)
+UnityEngine.Events.UnityEvent:Invoke() (at C:\BuildAgent\work\d63dfc6385190b60\Runtime\Export\UnityEvent_0.cs:53)
+UnityEngine.UI.Button:Press() (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\UI\Core\Button.cs:36)
+UnityEngine.UI.Button:OnPointerClick(PointerEventData) (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\UI\Core\Button.cs:45)
+UnityEngine.EventSystems.ExecuteEvents:Execute(IPointerClickHandler, BaseEventData) (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\ExecuteEvents.cs:52)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1) (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\ExecuteEvents.cs:269)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData) (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\InputModules\StandaloneInputModule.cs:359)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent() (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\InputModules\StandaloneInputModule.cs:250)
+UnityEngine.EventSystems.StandaloneInputModule:Process() (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\InputModules\StandaloneInputModule.cs:161)
+UnityEngine.EventSystems.EventSystem:Update() (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\EventSystem.cs:263)
  
 (Filename: C Line: 0)
 
@@ -96,10 +119,10 @@ UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 SimpleStateMachine:SwitchStates(StateDelegate, StateDelegate, StateDelegate, String) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:37)
 SimpleStateMachine:SwitchStates(SimpleState) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:41)
-PlayerStateManager:ConnectUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:100)
+PlayerStateManager:ConnectUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:102)
 SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
-PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:67)
-PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:52)
+PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:69)
+PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:54)
  
 (Filename: C Line: 0)
 
@@ -108,10 +131,166 @@ UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 SimpleStateMachine:SwitchStates(StateDelegate, StateDelegate, StateDelegate, String) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:37)
 SimpleStateMachine:SwitchStates(SimpleState) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:41)
-PlayerStateManager:ConnectUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:100)
+PlayerStateManager:ConnectUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:102)
 SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
-PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:67)
-PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:52)
+PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:69)
+PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:54)
+ 
+(Filename: C Line: 0)
+
+Friend Connected
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+MainStateManager:FriendConnected(NetworkPlayer) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:114)
+NetworkHandler:OnPlayerConnected(NetworkPlayer) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\Networking\NetworkHandler.cs:95)
+ 
+(Filename: C Line: 0)
+
+STATE TRANSITION: PLAY --> CONNECT
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SimpleStateMachine:SwitchStates(StateDelegate, StateDelegate, StateDelegate, String) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:37)
+SimpleStateMachine:SwitchStates(SimpleState) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:41)
+PlayerStateManager:Connect() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:64)
+MainStateManager:GameEnter() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:71)
+SimpleStateMachine:SwitchStates(StateDelegate, StateDelegate, StateDelegate, String) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:34)
+SimpleStateMachine:SwitchStates(SimpleState) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:41)
+MainStateManager:WaitUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:61)
+SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
+MainStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:50)
+MainStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:40)
+ 
+(Filename: C Line: 0)
+
+STATE TRANSITION: PLAY --> CONNECT
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SimpleStateMachine:SwitchStates(StateDelegate, StateDelegate, StateDelegate, String) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:37)
+SimpleStateMachine:SwitchStates(SimpleState) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:41)
+PlayerStateManager:Connect() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:64)
+MainStateManager:GameEnter() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:72)
+SimpleStateMachine:SwitchStates(StateDelegate, StateDelegate, StateDelegate, String) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:34)
+SimpleStateMachine:SwitchStates(SimpleState) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:41)
+MainStateManager:WaitUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:61)
+SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
+MainStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:50)
+MainStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:40)
+ 
+(Filename: C Line: 0)
+
+STATE TRANSITION: [WAIT] --> [GAME]
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SimpleStateMachine:SwitchStates(StateDelegate, StateDelegate, StateDelegate, String) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:37)
+SimpleStateMachine:SwitchStates(SimpleState) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:41)
+MainStateManager:WaitUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:61)
+SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
+MainStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:50)
+MainStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:40)
+ 
+(Filename: C Line: 0)
+
+STATE TRANSITION: CONNECT --> PLAY
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SimpleStateMachine:SwitchStates(StateDelegate, StateDelegate, StateDelegate, String) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:37)
+SimpleStateMachine:SwitchStates(SimpleState) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:41)
+PlayerStateManager:ConnectUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:102)
+SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
+PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:69)
+PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:54)
+ 
+(Filename: C Line: 0)
+
+STATE TRANSITION: CONNECT --> PLAY
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SimpleStateMachine:SwitchStates(StateDelegate, StateDelegate, StateDelegate, String) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:37)
+SimpleStateMachine:SwitchStates(SimpleState) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:41)
+PlayerStateManager:ConnectUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:102)
+SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
+PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:69)
+PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:54)
+ 
+(Filename: C Line: 0)
+
+sending points scored: 1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+MainStateManager:SendPointsScored(Int32) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:150)
+PlayerStateManager:PlayUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:128)
+SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
+PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:69)
+PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:54)
+ 
+(Filename: C Line: 0)
+
+sending points scored: 1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+MainStateManager:SendPointsScored(Int32) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:150)
+PlayerStateManager:PlayUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:128)
+SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
+PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:69)
+PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:54)
+ 
+(Filename: C Line: 0)
+
+sending points scored: 1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+MainStateManager:SendPointsScored(Int32) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:150)
+PlayerStateManager:PlayUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:128)
+SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
+PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:69)
+PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:54)
+ 
+(Filename: C Line: 0)
+
+sending points scored: 1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+MainStateManager:SendPointsScored(Int32) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:150)
+PlayerStateManager:PlayUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:128)
+SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
+PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:69)
+PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:54)
+ 
+(Filename: C Line: 0)
+
+ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: startIndex
+  at System.BitConverter.PutBytes (System.Byte* dst, System.Byte[] src, Int32 start_index, Int32 count) [0x00064] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System/BitConverter.cs:188 
+  at System.BitConverter.ToInt32 (System.Byte[] value, Int32 startIndex) [0x00000] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System/BitConverter.cs:228 
+  at MainStateManager.ReceiveNetworkCall (System.Byte[] data) [0x00000] in C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:106 
+  at NetworkHandler.NetworkCallReceive (Int32 functionId, System.Byte[] data) [0x00000] in C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\Networking\NetworkHandler.cs:54 
+ 
+(Filename: C Line: 0)
+
+ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: startIndex
+  at System.BitConverter.PutBytes (System.Byte* dst, System.Byte[] src, Int32 start_index, Int32 count) [0x00064] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System/BitConverter.cs:188 
+  at System.BitConverter.ToInt32 (System.Byte[] value, Int32 startIndex) [0x00000] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System/BitConverter.cs:228 
+  at MainStateManager.ReceiveNetworkCall (System.Byte[] data) [0x00000] in C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:106 
+  at NetworkHandler.NetworkCallReceive (Int32 functionId, System.Byte[] data) [0x00000] in C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\Networking\NetworkHandler.cs:54 
+ 
+(Filename: C Line: 0)
+
+ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: startIndex
+  at System.BitConverter.PutBytes (System.Byte* dst, System.Byte[] src, Int32 start_index, Int32 count) [0x00064] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System/BitConverter.cs:188 
+  at System.BitConverter.ToInt32 (System.Byte[] value, Int32 startIndex) [0x00000] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System/BitConverter.cs:228 
+  at MainStateManager.ReceiveNetworkCall (System.Byte[] data) [0x00000] in C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:106 
+  at NetworkHandler.NetworkCallReceive (Int32 functionId, System.Byte[] data) [0x00000] in C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\Networking\NetworkHandler.cs:54 
+ 
+(Filename: C Line: 0)
+
+ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: startIndex
+  at System.BitConverter.PutBytes (System.Byte* dst, System.Byte[] src, Int32 start_index, Int32 count) [0x00064] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System/BitConverter.cs:188 
+  at System.BitConverter.ToInt32 (System.Byte[] value, Int32 startIndex) [0x00000] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System/BitConverter.cs:228 
+  at MainStateManager.ReceiveNetworkCall (System.Byte[] data) [0x00000] in C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:106 
+  at NetworkHandler.NetworkCallReceive (Int32 functionId, System.Byte[] data) [0x00000] in C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\Networking\NetworkHandler.cs:54 
  
 (Filename: C Line: 0)
 
