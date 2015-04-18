@@ -5,7 +5,7 @@ using System.Collections;
 [RequireComponent (typeof(NetworkView))]
 public class NetworkInit : MonoBehaviour {
 
-	private string serverIp = "127.0.0.1";
+	private string serverIp = "143.215.54.5";
 	public int numConnections;
 	public int port;
 	public bool useNatPunch;
