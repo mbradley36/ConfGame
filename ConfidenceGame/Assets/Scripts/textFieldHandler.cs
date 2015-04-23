@@ -4,8 +4,14 @@ using UnityEngine.UI;
 using UnityEngine.Events;
 
 public class textFieldHandler : MonoBehaviour {
+	public static textFieldHandler instance { get; private set;}
 
 	public InputField sentence = null;
+	private int worth = 0;
+
+	void Awake(){
+		instance = this;
+	}
 	
 	// Use this for initialization
 	void Start () {
@@ -28,7 +34,13 @@ public class textFieldHandler : MonoBehaviour {
 		Debug.Log (typed);
 		sentence.Select ();
 		sentence.ActivateInputField ();
-		DictionaryManager.instance.CheckDictionary (typed);
+		worth = DictionaryManager.instance.CheckDictionary (typed);
+	}
+
+	public int GetWorth(){
+		int tmp = worth;
+		worth = 0;
+		return tmp;
 	}
 
 }
