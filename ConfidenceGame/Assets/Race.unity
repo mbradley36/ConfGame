@@ -73,7 +73,6 @@ NavMeshSettings:
     minRegionArea: 2
     widthInaccuracy: 16.666666
     heightInaccuracy: 10
-    tileSizeHint: 0
   m_NavMesh: {fileID: 0}
 --- !u!1 &98693886
 GameObject:
@@ -1744,6 +1743,7 @@ GameObject:
   - 4: {fileID: 1503227284}
   - 114: {fileID: 1503227283}
   - 114: {fileID: 1503227282}
+  - 114: {fileID: 1503227285}
   m_Layer: 0
   m_Name: Scene
   m_TagString: Untagged
@@ -1795,6 +1795,18 @@ Transform:
   - {fileID: 1985757468}
   m_Father: {fileID: 0}
   m_RootOrder: 5
+--- !u!114 &1503227285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1503227281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df2baa4673cb483488448d460f2e4b23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingPointVal: 4
 --- !u!1 &1661892809
 GameObject:
   m_ObjectHideFlags: 0
@@ -2116,8 +2128,8 @@ MonoBehaviour:
   m_Script: {fileID: 1301386320, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
+  ignoreReversedGraphics: 1
+  blockingObjects: 0
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -2632,8 +2644,8 @@ MonoBehaviour:
   m_Script: {fileID: 1301386320, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
+  ignoreReversedGraphics: 1
+  blockingObjects: 0
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
