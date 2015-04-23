@@ -28,5 +28,10 @@ public class textFieldHandler : MonoBehaviour {
 		Debug.Log (typed);
 		sentence.Select ();
 		sentence.ActivateInputField ();
+		CheckSentenceForPoints (typed);
+	}
+
+	void CheckSentenceForPoints(string typed){
+
 	}
 }
