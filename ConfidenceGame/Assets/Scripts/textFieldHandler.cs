@@ -8,6 +8,7 @@ public class textFieldHandler : MonoBehaviour {
 
 	public InputField sentence = null;
 	private int worth = 0;
+	private string typed;
 
 	void Awake(){
 		instance = this;
@@ -30,17 +31,17 @@ public class textFieldHandler : MonoBehaviour {
 	
 	//function that is called when enter is pressed after typing something into input field sentence
 	//the string it takes in is what the user typed
-	void saveString(string typed){
-		Debug.Log (typed);
+	void saveString(string _typed){
+		Debug.Log (_typed);
+		typed = _typed;
 		sentence.Select ();
 		sentence.ActivateInputField ();
-		worth = DictionaryManager.instance.CheckDictionary (typed);
+
 	}
 
 	public int GetWorth(){
-		int tmp = worth;
-		worth = 0;
-		return tmp;
+		int worth = DictionaryManager.instance.CheckDictionary (typed);
+		return worth;
 	}
 
 }
