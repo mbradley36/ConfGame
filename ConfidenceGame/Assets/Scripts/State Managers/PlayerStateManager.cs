@@ -125,7 +125,7 @@ public class PlayerStateManager : MonoBehaviour
 			if (mySprite.transform.position.x < 13.36) {
 				if (Input.GetKeyDown (KeyCode.Return)) {
 					int points = textFieldHandler.instance.GetWorth();
-					mySprite.transform.position = new Vector3 (mySprite.transform.position.x + points*0.15f, mySprite.transform.position.y, mySprite.transform.position.z);
+					mySprite.transform.position = new Vector3 (mySprite.transform.position.x + points*0.5f, mySprite.transform.position.y, mySprite.transform.position.z);
 					MainStateManager.Instance.SendPointsScored(points);
 				}
 			}
@@ -133,7 +133,7 @@ public class PlayerStateManager : MonoBehaviour
 			if (mySprite.transform.position.x < 13.36) {
 				if (Input.GetKeyDown (KeyCode.Return)) {
 					int points = textFieldHandler.instance.GetWorth();
-					opponentSprite.transform.position = new Vector3 (opponentSprite.transform.position.x + points*0.15f, opponentSprite.transform.position.y, opponentSprite.transform.position.z);
+					opponentSprite.transform.position = new Vector3 (opponentSprite.transform.position.x + points*0.5f, opponentSprite.transform.position.y, opponentSprite.transform.position.z);
 					MainStateManager.Instance.SendPointsScored(points);
 				}
 			}
@@ -145,9 +145,9 @@ public class PlayerStateManager : MonoBehaviour
 
 	public void MovedAmt(int points){
 		if(Network.isServer) {
-			opponentSprite.transform.position = new Vector3 (opponentSprite.transform.position.x + points*0.15f, opponentSprite.transform.position.y, opponentSprite.transform.position.z);
+			opponentSprite.transform.position = new Vector3 (opponentSprite.transform.position.x + points*0.5f, opponentSprite.transform.position.y, opponentSprite.transform.position.z);
 		} else {
-			mySprite.transform.position = new Vector3 (mySprite.transform.position.x + points*0.15f, mySprite.transform.position.y, mySprite.transform.position.z);
+			mySprite.transform.position = new Vector3 (mySprite.transform.position.x + points*0.5f, mySprite.transform.position.y, mySprite.transform.position.z);
 		}
 	}
 
