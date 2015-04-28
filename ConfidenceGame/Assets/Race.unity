@@ -989,6 +989,7 @@ MonoBehaviour:
   canvas: {fileID: 1708493583}
   finishLine: {fileID: 1663221}
   winText: {fileID: 738112091}
+  typeGUI: {fileID: 2085843907}
   stateMachine:
     currentState: 
   padPrefab: {fileID: 0}
@@ -2369,6 +2370,7 @@ MonoBehaviour:
   canvas: {fileID: 1708493583}
   finishLine: {fileID: 1663221}
   winText: {fileID: 738112091}
+  typeGUI: {fileID: 2085843907}
   stateMachine:
     currentState: 
   padPrefab: {fileID: 0}

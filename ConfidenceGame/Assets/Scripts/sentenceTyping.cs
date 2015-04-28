@@ -14,20 +14,7 @@ public class sentenceTyping : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-//		if (Input.anyKeyDown) {
-//			if (Input.GetKeyDown (KeyCode.Return)) {
-//				sentence.GetComponent<Text>().text = "d";
-//			}
-//			else {
-//				//sentence.GetComponent<Text>().text = sentence.GetComponent<Text>().text + Input.inputString.ToString();
-//				foreach(char c in Input.inputString) {
-//					sentence.GetComponent<Text>().text = sentence.GetComponent<Text>().text + Input.inputString.ToString();
-//					Debug.Log (c);
-//				}
-//				//Debug.Log(Input.inputString);
-//				//sentence.GetComponent<Text>().text = "dog";
-//			}
-//		}
+
 		foreach (char c in Input.inputString) {
 			if (c == "\b"[0]){
 				if (sentence.GetComponent<Text>().text.Length != 0)

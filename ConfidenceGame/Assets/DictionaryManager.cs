@@ -85,12 +85,14 @@ public class DictionaryManager : MonoBehaviour {
 	IEnumerator MultiplierFeedback(){
 		Debug.Log ("multiplier feedback");
 		GameObject g = GameObject.Instantiate (feedbackObj) as GameObject;
-		float finalPos = g.transform.position.y + 10f;
-		while(g.transform.position.y < finalPos) {
-			Vector3 modifiedPos = g.transform.position;
-			modifiedPos.y += 0.1f;
-			g.transform.position = modifiedPos;
-			yield return new WaitForSeconds(0.5f);
+		RectTransform r = g.GetComponent<RectTransform> ();
+		float timer = Time.time + 0.5f;
+		Vector2 modifiedPos = r.anchoredPosition;
+		while(Time.time < timer) {
+			Debug.Log (r.anchoredPosition);
+			modifiedPos.y += 1.5f;
+			r.anchoredPosition = modifiedPos;
+			yield return new WaitForSeconds(0.001f);
 		}
 		GameObject.Destroy (g);
 		yield return new WaitForSeconds (0f);

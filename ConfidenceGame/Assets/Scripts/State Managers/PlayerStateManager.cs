@@ -9,7 +9,7 @@ public class PlayerStateManager : MonoBehaviour
 	private string networkPlayerString = "";
 	public bool initialized;
 	public bool isMe, winner;
-	public GameObject opponentSprite, mySprite, canvas, finishLine, winText;
+	public GameObject opponentSprite, mySprite, canvas, finishLine, winText, typeGUI;
 
 	public SimpleStateMachine stateMachine;
 	SimpleState setupState, menuState, connectState, playState, disconnectState;
@@ -146,12 +146,24 @@ public class PlayerStateManager : MonoBehaviour
 			//}
 		}
 
+		if(winner) typeGUI.SetActive(false);
+
 		if (mySprite.transform.position.x > finishLine.transform.position.x) {
-			winText.SetActive(true);
-			winText.GetComponent<Text>().text = "You win!";
-		} else if( opponentSprite.transform.position.x > finishLine.transform.position.x) {
-			winText.SetActive(true);
-			winText.GetComponent<Text>().text = "Your oppnonent wins!";
+			if(Network.isServer) {
+				winText.SetActive(true);
+				winText.GetComponent<Text>().text = "You win!";
+			} else {
+				winText.SetActive(true);
+				winText.GetComponent<Text>().text = "Your oppnonent wins!";
+			}
+		} else if (opponentSprite.transform.position.x > finishLine.transform.position.x){
+			if(Network.isServer) {
+				winText.SetActive(true);
+				winText.GetComponent<Text>().text = "Your oppnonent wins!";
+			} else {
+				winText.SetActive(true);
+				winText.GetComponent<Text>().text = "You win!";
+			}
 		}
 	}
 
