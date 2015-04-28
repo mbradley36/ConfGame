@@ -983,6 +983,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialized: 0
   isMe: 0
+  winner: 0
   opponentSprite: {fileID: 1978189618}
   mySprite: {fileID: 506892863}
   canvas: {fileID: 1708493583}
@@ -2043,6 +2044,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startingPointVal: 4
+  feedbackObj: {fileID: 167286, guid: 3c424b388a6f05747b21d9b984ca0053, type: 2}
 --- !u!1 &1651168110
 GameObject:
   m_ObjectHideFlags: 0
@@ -2361,6 +2363,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialized: 1
   isMe: 1
+  winner: 0
   opponentSprite: {fileID: 1978189618}
   mySprite: {fileID: 506892863}
   canvas: {fileID: 1708493583}

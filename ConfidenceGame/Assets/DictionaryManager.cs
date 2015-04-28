@@ -10,6 +10,7 @@ public class DictionaryManager : MonoBehaviour {
 	private Dictionary<string, int> multiplierDictionary = new Dictionary<string, int>();
 	private Dictionary<string, int> negativeDictionary = new Dictionary<string, int>();
 	public int startingPointVal = 4;
+	public GameObject feedbackObj;
 
 	void Awake(){
 		instance = this;
@@ -74,8 +75,21 @@ public class DictionaryManager : MonoBehaviour {
 		if(words.Length > 7) multiples.Add(startingPointVal);
 		foreach(int i in multiples) {
 					points *= i;
+					StartCoroutine("MultiplierFeedback");
 		}
 		//Debug.Log ("points worth: " + points);
 		return points;
+	}
+
+	IEnumerator MultiplierFeedback(){
+		GameObject g = GameObject.Instantiate (feedbackObj) as GameObject;
+		float finalPos = g.transform.position.y + 10;
+		while(g.transform.position.y < finalPos) {
+			Vector3 modifiedPos = g.transform.position;
+			modifiedPos.y += 0.1f;
+			g.transform.position = modifiedPos;
+			yield return new WaitForSeconds(0.3f);
+		}
+		yield return new WaitForSeconds (0f);
 	}
 }
