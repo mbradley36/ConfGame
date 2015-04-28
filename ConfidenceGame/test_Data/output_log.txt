@@ -12,7 +12,7 @@ Platform assembly: C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\t
 Loading C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
 Platform assembly: C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
 Loading C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-- Completed reload, in  0.051 seconds
+- Completed reload, in  0.050 seconds
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
@@ -82,7 +82,7 @@ UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventF
 UnityEngine.EventSystems.EventSystem:SetSelectedGameObject(GameObject, BaseEventData) (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\EventSystem.cs:102)
 UnityEngine.EventSystems.StandaloneInputModule:ActivateModule() (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\InputModules\StandaloneInputModule.cs:138)
 UnityEngine.EventSystems.EventSystem:ChangeEventModule(BaseInputModule) (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\EventSystem.cs:275)
-UnityEngine.EventSystems.EventSystem:Update() (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\EventSystem.cs:240)
+UnityEngine.EventSystems.EventSystem:Update() (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\EventSystem.cs:255)
  
 (Filename: C Line: 0)
 
@@ -720,6 +720,142 @@ UnityEngine.Debug:Log(Object)
  
 (Filename: C Line: 0)
 
+I'm the best
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+textFieldHandler:saveString(String) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\textFieldHandler.cs:35)
+UnityEngine.Events.InvokableCall`1:Invoke(Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\Runtime\Export\UnityEvent.cs:141)
+UnityEngine.Events.InvokableCallList:Invoke(Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\Runtime\Export\UnityEvent.cs:575)
+UnityEngine.Events.UnityEventBase:Invoke(Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\Runtime\Export\UnityEvent.cs:717)
+UnityEngine.Events.UnityEvent`1:Invoke(T0) (at C:\BuildAgent\work\d63dfc6385190b60\Runtime\Export\UnityEvent_1.cs:53)
+UnityEngine.UI.InputField:SendOnSubmit() (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\UI\Core\InputField.cs:1261)
+UnityEngine.UI.InputField:DeactivateInputField() (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\UI\Core\InputField.cs:1928)
+UnityEngine.UI.InputField:OnUpdateSelected(BaseEventData) (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\UI\Core\InputField.cs:954)
+UnityEngine.EventSystems.ExecuteEvents:Execute(IUpdateSelectedHandler, BaseEventData) (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\ExecuteEvents.cs:101)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1) (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\ExecuteEvents.cs:269)
+UnityEngine.EventSystems.StandaloneInputModule:SendUpdateEventToSelectedObject() (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\InputModules\StandaloneInputModule.cs:281)
+UnityEngine.EventSystems.StandaloneInputModule:Process() (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\InputModules\StandaloneInputModule.cs:150)
+UnityEngine.EventSystems.EventSystem:Update() (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\EventSystem.cs:263)
+ 
+(Filename: C Line: 0)
+
+multiplier feedback
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:86)
+UnityEngine.MonoBehaviour:StartCoroutine(String, Object)
+UnityEngine.MonoBehaviour:StartCoroutine(String) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:77)
+DictionaryManager:CheckDictionary(String) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:80)
+textFieldHandler:GetWorth() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\textFieldHandler.cs:43)
+PlayerStateManager:PlayUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:134)
+SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
+PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:76)
+PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:61)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+UnityEngine.MonoBehaviour:StartCoroutine(String, Object)
+UnityEngine.MonoBehaviour:StartCoroutine(String) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:77)
+DictionaryManager:CheckDictionary(String) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:80)
+textFieldHandler:GetWorth() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\textFieldHandler.cs:43)
+PlayerStateManager:PlayUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:134)
+SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
+PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:76)
+PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:61)
+ 
+(Filename: C Line: 0)
+
+sending points scored: 16
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+MainStateManager:SendPointsScored(Int32) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:151)
+PlayerStateManager:PlayUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:136)
+SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
+PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:76)
+PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:61)
+ 
+(Filename: C Line: 0)
+
+multiplier feedback
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:86)
+UnityEngine.MonoBehaviour:StartCoroutine(String, Object)
+UnityEngine.MonoBehaviour:StartCoroutine(String) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:77)
+DictionaryManager:CheckDictionary(String) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:80)
+textFieldHandler:GetWorth() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\textFieldHandler.cs:43)
+PlayerStateManager:PlayUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:134)
+SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
+PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:76)
+PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:61)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+UnityEngine.MonoBehaviour:StartCoroutine(String, Object)
+UnityEngine.MonoBehaviour:StartCoroutine(String) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:77)
+DictionaryManager:CheckDictionary(String) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:80)
+textFieldHandler:GetWorth() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\textFieldHandler.cs:43)
+PlayerStateManager:PlayUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:134)
+SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
+PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:76)
+PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:61)
+ 
+(Filename: C Line: 0)
+
+sending points scored: 3
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+MainStateManager:SendPointsScored(Int32) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:151)
+PlayerStateManager:PlayUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:136)
+SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
+PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:76)
+PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:61)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
 (256.0, 192.0)
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
@@ -762,7 +898,336 @@ UnityEngine.Debug:Log(Object)
  
 (Filename: C Line: 0)
 
-I'm awesome
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+I'm so great
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 textFieldHandler:saveString(String) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\textFieldHandler.cs:35)
@@ -1241,7 +1706,35 @@ UnityEngine.Debug:Log(Object)
  
 (Filename: C Line: 0)
 
-I'mso great
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+I'm really really awesome
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 textFieldHandler:saveString(String) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\textFieldHandler.cs:35)
@@ -1290,7 +1783,7 @@ PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\Con
  
 (Filename: C Line: 0)
 
-sending points scored: 4
+sending points scored: 16
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 MainStateManager:SendPointsScored(Int32) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:151)
@@ -1748,89 +2241,7 @@ UnityEngine.Debug:Log(Object)
  
 (Filename: C Line: 0)
 
-(256.0, 192.0)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
- 
-(Filename: C Line: 0)
-
-(256.0, 192.0)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
- 
-(Filename: C Line: 0)
-
-12
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-MainStateManager:ReceiveNetworkCall(Byte[]) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:106)
-NetworkHandler:NetworkCallReceive(Int32, Byte[]) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\Networking\NetworkHandler.cs:54)
- 
-(Filename: C Line: 0)
-
-opponent points scored: 0
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-MainStateManager:PointsScored(Byte[]) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:145)
-MainStateManager:ReceiveNetworkCall(Byte[]) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:108)
-NetworkHandler:NetworkCallReceive(Int32, Byte[]) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\Networking\NetworkHandler.cs:54)
- 
-(Filename: C Line: 0)
-
-12
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-MainStateManager:ReceiveNetworkCall(Byte[]) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:106)
-NetworkHandler:NetworkCallReceive(Int32, Byte[]) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\Networking\NetworkHandler.cs:54)
- 
-(Filename: C Line: 0)
-
-opponent points scored: 0
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-MainStateManager:PointsScored(Byte[]) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:145)
-MainStateManager:ReceiveNetworkCall(Byte[]) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:108)
-NetworkHandler:NetworkCallReceive(Int32, Byte[]) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\Networking\NetworkHandler.cs:54)
- 
-(Filename: C Line: 0)
-
-12
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-MainStateManager:ReceiveNetworkCall(Byte[]) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:106)
-NetworkHandler:NetworkCallReceive(Int32, Byte[]) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\Networking\NetworkHandler.cs:54)
- 
-(Filename: C Line: 0)
-
-opponent points scored: 16
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-MainStateManager:PointsScored(Byte[]) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:145)
-MainStateManager:ReceiveNetworkCall(Byte[]) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:108)
-NetworkHandler:NetworkCallReceive(Int32, Byte[]) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\Networking\NetworkHandler.cs:54)
- 
-(Filename: C Line: 0)
-
-12
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-MainStateManager:ReceiveNetworkCall(Byte[]) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:106)
-NetworkHandler:NetworkCallReceive(Int32, Byte[]) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\Networking\NetworkHandler.cs:54)
- 
-(Filename: C Line: 0)
-
-opponent points scored: 3
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-MainStateManager:PointsScored(Byte[]) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:145)
-MainStateManager:ReceiveNetworkCall(Byte[]) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:108)
-NetworkHandler:NetworkCallReceive(Int32, Byte[]) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\Networking\NetworkHandler.cs:54)
- 
-(Filename: C Line: 0)
-
-I'mso great
+I'm really really awesome
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 textFieldHandler:saveString(String) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\textFieldHandler.cs:35)
@@ -2337,7 +2748,89 @@ UnityEngine.Debug:Log(Object)
  
 (Filename: C Line: 0)
 
-I'mso great
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+12
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+MainStateManager:ReceiveNetworkCall(Byte[]) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:106)
+NetworkHandler:NetworkCallReceive(Int32, Byte[]) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\Networking\NetworkHandler.cs:54)
+ 
+(Filename: C Line: 0)
+
+opponent points scored: 0
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+MainStateManager:PointsScored(Byte[]) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:145)
+MainStateManager:ReceiveNetworkCall(Byte[]) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:108)
+NetworkHandler:NetworkCallReceive(Int32, Byte[]) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\Networking\NetworkHandler.cs:54)
+ 
+(Filename: C Line: 0)
+
+12
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+MainStateManager:ReceiveNetworkCall(Byte[]) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:106)
+NetworkHandler:NetworkCallReceive(Int32, Byte[]) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\Networking\NetworkHandler.cs:54)
+ 
+(Filename: C Line: 0)
+
+opponent points scored: 0
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+MainStateManager:PointsScored(Byte[]) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:145)
+MainStateManager:ReceiveNetworkCall(Byte[]) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:108)
+NetworkHandler:NetworkCallReceive(Int32, Byte[]) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\Networking\NetworkHandler.cs:54)
+ 
+(Filename: C Line: 0)
+
+12
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+MainStateManager:ReceiveNetworkCall(Byte[]) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:106)
+NetworkHandler:NetworkCallReceive(Int32, Byte[]) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\Networking\NetworkHandler.cs:54)
+ 
+(Filename: C Line: 0)
+
+opponent points scored: 16
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+MainStateManager:PointsScored(Byte[]) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:145)
+MainStateManager:ReceiveNetworkCall(Byte[]) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:108)
+NetworkHandler:NetworkCallReceive(Int32, Byte[]) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\Networking\NetworkHandler.cs:54)
+ 
+(Filename: C Line: 0)
+
+12
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+MainStateManager:ReceiveNetworkCall(Byte[]) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:106)
+NetworkHandler:NetworkCallReceive(Int32, Byte[]) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\Networking\NetworkHandler.cs:54)
+ 
+(Filename: C Line: 0)
+
+opponent points scored: 3
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+MainStateManager:PointsScored(Byte[]) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:145)
+MainStateManager:ReceiveNetworkCall(Byte[]) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:108)
+NetworkHandler:NetworkCallReceive(Int32, Byte[]) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\Networking\NetworkHandler.cs:54)
+ 
+(Filename: C Line: 0)
+
+I rock
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 textFieldHandler:saveString(String) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\textFieldHandler.cs:35)
@@ -2844,7 +3337,89 @@ UnityEngine.Debug:Log(Object)
  
 (Filename: C Line: 0)
 
-I'm really super
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+12
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+MainStateManager:ReceiveNetworkCall(Byte[]) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:106)
+NetworkHandler:NetworkCallReceive(Int32, Byte[]) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\Networking\NetworkHandler.cs:54)
+ 
+(Filename: C Line: 0)
+
+opponent points scored: 0
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+MainStateManager:PointsScored(Byte[]) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:145)
+MainStateManager:ReceiveNetworkCall(Byte[]) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:108)
+NetworkHandler:NetworkCallReceive(Int32, Byte[]) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\Networking\NetworkHandler.cs:54)
+ 
+(Filename: C Line: 0)
+
+12
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+MainStateManager:ReceiveNetworkCall(Byte[]) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:106)
+NetworkHandler:NetworkCallReceive(Int32, Byte[]) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\Networking\NetworkHandler.cs:54)
+ 
+(Filename: C Line: 0)
+
+opponent points scored: 0
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+MainStateManager:PointsScored(Byte[]) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:145)
+MainStateManager:ReceiveNetworkCall(Byte[]) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:108)
+NetworkHandler:NetworkCallReceive(Int32, Byte[]) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\Networking\NetworkHandler.cs:54)
+ 
+(Filename: C Line: 0)
+
+12
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+MainStateManager:ReceiveNetworkCall(Byte[]) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:106)
+NetworkHandler:NetworkCallReceive(Int32, Byte[]) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\Networking\NetworkHandler.cs:54)
+ 
+(Filename: C Line: 0)
+
+opponent points scored: 8
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+MainStateManager:PointsScored(Byte[]) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:145)
+MainStateManager:ReceiveNetworkCall(Byte[]) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:108)
+NetworkHandler:NetworkCallReceive(Int32, Byte[]) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\Networking\NetworkHandler.cs:54)
+ 
+(Filename: C Line: 0)
+
+12
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+MainStateManager:ReceiveNetworkCall(Byte[]) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:106)
+NetworkHandler:NetworkCallReceive(Int32, Byte[]) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\Networking\NetworkHandler.cs:54)
+ 
+(Filename: C Line: 0)
+
+opponent points scored: 6
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+MainStateManager:PointsScored(Byte[]) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:145)
+MainStateManager:ReceiveNetworkCall(Byte[]) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:108)
+NetworkHandler:NetworkCallReceive(Int32, Byte[]) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\Networking\NetworkHandler.cs:54)
+ 
+(Filename: C Line: 0)
+
+I'm really great at things
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 textFieldHandler:saveString(String) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\textFieldHandler.cs:35)
@@ -2893,7 +3468,7 @@ PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\Con
  
 (Filename: C Line: 0)
 
-sending points scored: 16
+sending points scored: 2
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 MainStateManager:SendPointsScored(Int32) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:151)
@@ -2934,7 +3509,951 @@ PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\Con
  
 (Filename: C Line: 0)
 
-sending points scored: 12
+sending points scored: 1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+MainStateManager:SendPointsScored(Int32) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:151)
+PlayerStateManager:PlayUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:136)
+SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
+PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:76)
+PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:61)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+I'm really great at things
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+textFieldHandler:saveString(String) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\textFieldHandler.cs:35)
+UnityEngine.Events.InvokableCall`1:Invoke(Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\Runtime\Export\UnityEvent.cs:141)
+UnityEngine.Events.InvokableCallList:Invoke(Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\Runtime\Export\UnityEvent.cs:575)
+UnityEngine.Events.UnityEventBase:Invoke(Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\Runtime\Export\UnityEvent.cs:717)
+UnityEngine.Events.UnityEvent`1:Invoke(T0) (at C:\BuildAgent\work\d63dfc6385190b60\Runtime\Export\UnityEvent_1.cs:53)
+UnityEngine.UI.InputField:SendOnSubmit() (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\UI\Core\InputField.cs:1261)
+UnityEngine.UI.InputField:DeactivateInputField() (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\UI\Core\InputField.cs:1928)
+UnityEngine.UI.InputField:OnUpdateSelected(BaseEventData) (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\UI\Core\InputField.cs:954)
+UnityEngine.EventSystems.ExecuteEvents:Execute(IUpdateSelectedHandler, BaseEventData) (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\ExecuteEvents.cs:101)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1) (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\ExecuteEvents.cs:269)
+UnityEngine.EventSystems.StandaloneInputModule:SendUpdateEventToSelectedObject() (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\InputModules\StandaloneInputModule.cs:281)
+UnityEngine.EventSystems.StandaloneInputModule:Process() (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\InputModules\StandaloneInputModule.cs:150)
+UnityEngine.EventSystems.EventSystem:Update() (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\EventSystem.cs:263)
+ 
+(Filename: C Line: 0)
+
+multiplier feedback
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:86)
+UnityEngine.MonoBehaviour:StartCoroutine(String, Object)
+UnityEngine.MonoBehaviour:StartCoroutine(String) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:77)
+DictionaryManager:CheckDictionary(String) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:80)
+textFieldHandler:GetWorth() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\textFieldHandler.cs:43)
+PlayerStateManager:PlayUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:134)
+SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
+PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:76)
+PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:61)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+UnityEngine.MonoBehaviour:StartCoroutine(String, Object)
+UnityEngine.MonoBehaviour:StartCoroutine(String) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:77)
+DictionaryManager:CheckDictionary(String) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:80)
+textFieldHandler:GetWorth() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\textFieldHandler.cs:43)
+PlayerStateManager:PlayUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:134)
+SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
+PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:76)
+PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:61)
+ 
+(Filename: C Line: 0)
+
+sending points scored: 0
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+MainStateManager:SendPointsScored(Int32) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:151)
+PlayerStateManager:PlayUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:136)
+SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
+PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:76)
+PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:61)
+ 
+(Filename: C Line: 0)
+
+multiplier feedback
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:86)
+UnityEngine.MonoBehaviour:StartCoroutine(String, Object)
+UnityEngine.MonoBehaviour:StartCoroutine(String) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:77)
+DictionaryManager:CheckDictionary(String) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:80)
+textFieldHandler:GetWorth() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\textFieldHandler.cs:43)
+PlayerStateManager:PlayUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:134)
+SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
+PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:76)
+PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:61)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+UnityEngine.MonoBehaviour:StartCoroutine(String, Object)
+UnityEngine.MonoBehaviour:StartCoroutine(String) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:77)
+DictionaryManager:CheckDictionary(String) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:80)
+textFieldHandler:GetWorth() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\textFieldHandler.cs:43)
+PlayerStateManager:PlayUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:134)
+SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
+PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:76)
+PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:61)
+ 
+(Filename: C Line: 0)
+
+sending points scored: 0
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+MainStateManager:SendPointsScored(Int32) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:151)
+PlayerStateManager:PlayUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:136)
+SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
+PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:76)
+PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:61)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+I'm smart and tall
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+textFieldHandler:saveString(String) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\textFieldHandler.cs:35)
+UnityEngine.Events.InvokableCall`1:Invoke(Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\Runtime\Export\UnityEvent.cs:141)
+UnityEngine.Events.InvokableCallList:Invoke(Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\Runtime\Export\UnityEvent.cs:575)
+UnityEngine.Events.UnityEventBase:Invoke(Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\Runtime\Export\UnityEvent.cs:717)
+UnityEngine.Events.UnityEvent`1:Invoke(T0) (at C:\BuildAgent\work\d63dfc6385190b60\Runtime\Export\UnityEvent_1.cs:53)
+UnityEngine.UI.InputField:SendOnSubmit() (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\UI\Core\InputField.cs:1261)
+UnityEngine.UI.InputField:DeactivateInputField() (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\UI\Core\InputField.cs:1928)
+UnityEngine.UI.InputField:OnUpdateSelected(BaseEventData) (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\UI\Core\InputField.cs:954)
+UnityEngine.EventSystems.ExecuteEvents:Execute(IUpdateSelectedHandler, BaseEventData) (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\ExecuteEvents.cs:101)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1) (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\ExecuteEvents.cs:269)
+UnityEngine.EventSystems.StandaloneInputModule:SendUpdateEventToSelectedObject() (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\InputModules\StandaloneInputModule.cs:281)
+UnityEngine.EventSystems.StandaloneInputModule:Process() (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\InputModules\StandaloneInputModule.cs:150)
+UnityEngine.EventSystems.EventSystem:Update() (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\EventSystem.cs:263)
+ 
+(Filename: C Line: 0)
+
+multiplier feedback
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:86)
+UnityEngine.MonoBehaviour:StartCoroutine(String, Object)
+UnityEngine.MonoBehaviour:StartCoroutine(String) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:77)
+DictionaryManager:CheckDictionary(String) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:80)
+textFieldHandler:GetWorth() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\textFieldHandler.cs:43)
+PlayerStateManager:PlayUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:134)
+SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
+PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:76)
+PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:61)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+UnityEngine.MonoBehaviour:StartCoroutine(String, Object)
+UnityEngine.MonoBehaviour:StartCoroutine(String) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:77)
+DictionaryManager:CheckDictionary(String) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:80)
+textFieldHandler:GetWorth() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\textFieldHandler.cs:43)
+PlayerStateManager:PlayUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:134)
+SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
+PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:76)
+PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:61)
+ 
+(Filename: C Line: 0)
+
+sending points scored: 8
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+MainStateManager:SendPointsScored(Int32) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:151)
+PlayerStateManager:PlayUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:136)
+SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
+PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:76)
+PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:61)
+ 
+(Filename: C Line: 0)
+
+multiplier feedback
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:86)
+UnityEngine.MonoBehaviour:StartCoroutine(String, Object)
+UnityEngine.MonoBehaviour:StartCoroutine(String) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:77)
+DictionaryManager:CheckDictionary(String) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:80)
+textFieldHandler:GetWorth() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\textFieldHandler.cs:43)
+PlayerStateManager:PlayUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:134)
+SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
+PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:76)
+PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:61)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+UnityEngine.MonoBehaviour:StartCoroutine(String, Object)
+UnityEngine.MonoBehaviour:StartCoroutine(String) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:77)
+DictionaryManager:CheckDictionary(String) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:80)
+textFieldHandler:GetWorth() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\textFieldHandler.cs:43)
+PlayerStateManager:PlayUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:134)
+SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
+PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:76)
+PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:61)
+ 
+(Filename: C Line: 0)
+
+sending points scored: 6
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 MainStateManager:SendPointsScored(Int32) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:151)
@@ -3351,7 +4870,21 @@ UnityEngine.Debug:Log(Object)
  
 (Filename: C Line: 0)
 
-I'm really super
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+(256.0, 192.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:92)
+ 
+(Filename: C Line: 0)
+
+I'm smart and tall
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 textFieldHandler:saveString(String) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\textFieldHandler.cs:35)
