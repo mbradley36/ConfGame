@@ -6,7 +6,7 @@ public class PlayerStateManager : MonoBehaviour
 {
 	public NetworkPlayer networkPlayer;
 	private string networkPlayerString = "";
-	public bool initialized;
+	public bool initialized = true;
 	public bool isMe;
 	public GameObject opponentSprite, mySprite;
 
