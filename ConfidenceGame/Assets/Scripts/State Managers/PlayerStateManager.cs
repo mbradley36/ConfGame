@@ -1,14 +1,15 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 
 public class PlayerStateManager : MonoBehaviour
 {
 	public NetworkPlayer networkPlayer;
 	private string networkPlayerString = "";
-	public bool initialized = true;
-	public bool isMe;
-	public GameObject opponentSprite, mySprite;
+	public bool initialized;
+	public bool isMe, winner;
+	public GameObject opponentSprite, mySprite, canvas, finishLine, winText, typeGUI;
 
 	public SimpleStateMachine stateMachine;
 	SimpleState setupState, menuState, connectState, playState, disconnectState;
@@ -22,6 +23,7 @@ public class PlayerStateManager : MonoBehaviour
 	void Start()
 	{
 		Init();
+		winner = false;
 	}
 
 	public void Init () 
@@ -40,12 +42,17 @@ public class PlayerStateManager : MonoBehaviour
 		networkPlayer = player;
 		initialized = true;
 		networkPlayerString = "" + networkPlayer;
+		HideNetworkGUI ();
 
+	}
+
+	private void HideNetworkGUI() {
+		canvas.SetActive(false);
 	}
 
 	public void ResetNetworkPlayer(NetworkPlayer player)
 	{
-		initialized = false;
+		//initialized = false;
 		networkPlayerString = "";
 	}
 	
@@ -120,22 +127,42 @@ public class PlayerStateManager : MonoBehaviour
 
 	void PlayUpdate() 
 	{
-		if (Network.isServer)
+		if (Network.isServer && !winner)
 		{
-			if (mySprite.transform.position.x < 13.36) {
+			//if (mySprite.transform.position.x < 13.36) {
 				if (Input.GetKeyDown (KeyCode.Return)) {
 					int points = textFieldHandler.instance.GetWorth();
 					mySprite.transform.position = new Vector3 (mySprite.transform.position.x + points*0.5f, mySprite.transform.position.y, mySprite.transform.position.z);
 					MainStateManager.Instance.SendPointsScored(points);
 				}
-			}
-		} else {
-			if (mySprite.transform.position.x < 13.36) {
+			//}
+		} else if(!winner) {
+			//if (opponentSprite.transform.position.x < 13.36) {
 				if (Input.GetKeyDown (KeyCode.Return)) {
 					int points = textFieldHandler.instance.GetWorth();
 					opponentSprite.transform.position = new Vector3 (opponentSprite.transform.position.x + points*0.5f, opponentSprite.transform.position.y, opponentSprite.transform.position.z);
 					MainStateManager.Instance.SendPointsScored(points);
 				}
+			//}
+		}
+
+		if(winner) typeGUI.SetActive(false);
+
+		if (mySprite.transform.position.x > finishLine.transform.position.x) {
+			if(Network.isServer) {
+				winText.SetActive(true);
+				winText.GetComponent<Text>().text = "You win!";
+			} else {
+				winText.SetActive(true);
+				winText.GetComponent<Text>().text = "Your oppnonent wins!";
+			}
+		} else if (opponentSprite.transform.position.x > finishLine.transform.position.x){
+			if(Network.isServer) {
+				winText.SetActive(true);
+				winText.GetComponent<Text>().text = "Your oppnonent wins!";
+			} else {
+				winText.SetActive(true);
+				winText.GetComponent<Text>().text = "You win!";
 			}
 		}
 	}
@@ -152,7 +179,9 @@ public class PlayerStateManager : MonoBehaviour
 	}
 
 	#region DISCONNECT
-	void DisconnectEnter() {}
+	void DisconnectEnter() {
+		Application.LoadLevel (1);
+	}
 
 	void DisconnectUpdate() {}
 
@@ -162,62 +191,4 @@ public class PlayerStateManager : MonoBehaviour
 	}
 	#endregion
 
-	/*public Pad CreatePad(Vector3 position)
-	{
-		GameObject newPadObject = Instantiate(padPrefab, new Vector3(position.x, position.y, 0f), Quaternion.identity) as GameObject;
-		Pad newPad = newPadObject.GetComponent<Pad>();
-		newPad.transform.parent = this.transform;
-		newPad.owner = networkPlayer;
-		newPad.id = padCount++;
-		newPad.SetPosition3(position);
-		newPad.color = padColors[Random.Range(0, padColors.Count)];
-		pads.Add(newPad);
-
-		return newPad;
-	}
-
-	public Pad CreatePad(Finger finger)
-	{
-		Vector3 fingerPos = finger.GetWorldPosition3();
-		GameObject newPadObject = Instantiate(padPrefab, fingerPos, Quaternion.identity) as GameObject;
-		Pad newPad = newPadObject.GetComponent<Pad>();
-		newPad.transform.parent = this.transform;
-		newPad.owner = networkPlayer;
-		newPad.id = padCount++;
-		newPad.SetPosition3(finger.GetWorldPosition3());
-		newPad.color = padColors[Random.Range(0, padColors.Count)];
-		newPad.Hold(finger);
-		pads.Add(newPad);
-
-		return newPad;
-	}
-
-	public Pad CreatePad(int id, Vector3 position)
-	{
-		// prevent padCount from lagging behind
-		if (id > padCount)
-		{
-			padCount = id;
-		}
-
-		return CreatePad(position);
-	}
-	
-	public void ReturnPadToFinger(Finger finger){
-		Pad existingPad = pads[0];
-		existingPad.SetPosition3(finger.GetWorldPosition3());
-		existingPad.Hold(finger);
-	}
-
-	public void DestroyPad(int id)
-	{
-		// Mark a pad for destruction
-		foreach (Pad pad in pads)
-		{
-			if (pad.id == id)
-			{
-				pad.isDead = true;
-			}
-		}
-	}*/
 }

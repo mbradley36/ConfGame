@@ -6,6 +6,7 @@ Direct3D:
     Vendor:   NVIDIA
     VRAM:     1972 MB
 Begin MonoManager ReloadAssembly
+<<<<<<< HEAD
 Platform assembly: C:\Users\Dom\Documents\GitHub\ConfGame\ConfidenceGame\test_Data\Managed\UnityEngine.dll (this message is harmless)
 Loading C:\Users\Dom\Documents\GitHub\ConfGame\ConfidenceGame\test_Data\Managed\UnityEngine.dll into Unity Child Domain
 Platform assembly: C:\Users\Dom\Documents\GitHub\ConfGame\ConfidenceGame\test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
@@ -13,6 +14,15 @@ Loading C:\Users\Dom\Documents\GitHub\ConfGame\ConfidenceGame\test_Data\Managed\
 Platform assembly: C:\Users\Dom\Documents\GitHub\ConfGame\ConfidenceGame\test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
 Loading C:\Users\Dom\Documents\GitHub\ConfGame\ConfidenceGame\test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
 - Completed reload, in  0.211 seconds
+=======
+Platform assembly: C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\test_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\test_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.054 seconds
+>>>>>>> origin/Miranda
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
@@ -31,9 +41,9 @@ UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 SimpleStateMachine:SwitchStates(StateDelegate, StateDelegate, StateDelegate, String) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:37)
 SimpleStateMachine:SwitchStates(SimpleState) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:41)
-PlayerStateManager:Setup() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:59)
-PlayerStateManager:Init() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:35)
-PlayerStateManager:Start() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:24)
+PlayerStateManager:Setup() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:66)
+PlayerStateManager:Init() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:37)
+PlayerStateManager:Start() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:25)
  
 (Filename: C Line: 0)
 
@@ -42,9 +52,9 @@ UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 SimpleStateMachine:SwitchStates(StateDelegate, StateDelegate, StateDelegate, String) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:37)
 SimpleStateMachine:SwitchStates(SimpleState) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:41)
-PlayerStateManager:Setup() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:59)
-PlayerStateManager:Init() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:35)
-PlayerStateManager:Start() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:24)
+PlayerStateManager:Setup() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:66)
+PlayerStateManager:Init() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:37)
+PlayerStateManager:Start() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:25)
  
 (Filename: C Line: 0)
 
@@ -66,6 +76,7 @@ MainStateManager:Start() (at C:\Users\miran_000\Documents\GitHub\ConfGame\Confid
  
 (Filename: C Line: 0)
 
+<<<<<<< HEAD
 C:/Users/Dom/Documents/GitHub/ConfGame/ConfidenceGame/test_Data/Resources/positiveWordList.txt
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
@@ -73,6 +84,8 @@ DictionaryManager:Start() (at C:\Users\miran_000\Documents\GitHub\ConfGame\Confi
  
 (Filename: C Line: 0)
 
+=======
+>>>>>>> origin/Miranda
 Tell us how you're awesome.
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
@@ -98,10 +111,10 @@ UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 SimpleStateMachine:SwitchStates(StateDelegate, StateDelegate, StateDelegate, String) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:37)
 SimpleStateMachine:SwitchStates(SimpleState) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:41)
-PlayerStateManager:SetupUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:80)
+PlayerStateManager:SetupUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:87)
 SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
-PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:69)
-PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:54)
+PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:76)
+PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:61)
  
 (Filename: C Line: 0)
 
@@ -110,14 +123,52 @@ UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 SimpleStateMachine:SwitchStates(StateDelegate, StateDelegate, StateDelegate, String) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:37)
 SimpleStateMachine:SwitchStates(SimpleState) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:41)
-PlayerStateManager:SetupUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:80)
+PlayerStateManager:SetupUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:87)
 SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
-PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:69)
-PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:54)
+PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:76)
+PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:61)
  
 (Filename: C Line: 0)
 
 Tell us how you're awesome.
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+textFieldHandler:saveString(String) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\textFieldHandler.cs:35)
+UnityEngine.Events.InvokableCall`1:Invoke(Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\Runtime\Export\UnityEvent.cs:141)
+UnityEngine.Events.InvokableCallList:Invoke(Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\Runtime\Export\UnityEvent.cs:575)
+UnityEngine.Events.UnityEventBase:Invoke(Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\Runtime\Export\UnityEvent.cs:717)
+UnityEngine.Events.UnityEvent`1:Invoke(T0) (at C:\BuildAgent\work\d63dfc6385190b60\Runtime\Export\UnityEvent_1.cs:53)
+UnityEngine.UI.InputField:SendOnSubmit() (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\UI\Core\InputField.cs:1261)
+UnityEngine.UI.InputField:DeactivateInputField() (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\UI\Core\InputField.cs:1928)
+UnityEngine.UI.InputField:OnUpdateSelected(BaseEventData) (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\UI\Core\InputField.cs:954)
+UnityEngine.EventSystems.ExecuteEvents:Execute(IUpdateSelectedHandler, BaseEventData) (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\ExecuteEvents.cs:101)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1) (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\ExecuteEvents.cs:269)
+UnityEngine.EventSystems.StandaloneInputModule:SendUpdateEventToSelectedObject() (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\InputModules\StandaloneInputModule.cs:281)
+UnityEngine.EventSystems.StandaloneInputModule:Process() (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\InputModules\StandaloneInputModule.cs:150)
+UnityEngine.EventSystems.EventSystem:Update() (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\EventSystem.cs:263)
+ 
+(Filename: C Line: 0)
+
+I'm so great!
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+textFieldHandler:saveString(String) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\textFieldHandler.cs:35)
+UnityEngine.Events.InvokableCall`1:Invoke(Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\Runtime\Export\UnityEvent.cs:141)
+UnityEngine.Events.InvokableCallList:Invoke(Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\Runtime\Export\UnityEvent.cs:575)
+UnityEngine.Events.UnityEventBase:Invoke(Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\Runtime\Export\UnityEvent.cs:717)
+UnityEngine.Events.UnityEvent`1:Invoke(T0) (at C:\BuildAgent\work\d63dfc6385190b60\Runtime\Export\UnityEvent_1.cs:53)
+UnityEngine.UI.InputField:SendOnSubmit() (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\UI\Core\InputField.cs:1261)
+UnityEngine.UI.InputField:DeactivateInputField() (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\UI\Core\InputField.cs:1928)
+UnityEngine.UI.InputField:OnUpdateSelected(BaseEventData) (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\UI\Core\InputField.cs:954)
+UnityEngine.EventSystems.ExecuteEvents:Execute(IUpdateSelectedHandler, BaseEventData) (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\ExecuteEvents.cs:101)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1) (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\ExecuteEvents.cs:269)
+UnityEngine.EventSystems.StandaloneInputModule:SendUpdateEventToSelectedObject() (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\InputModules\StandaloneInputModule.cs:281)
+UnityEngine.EventSystems.StandaloneInputModule:Process() (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\InputModules\StandaloneInputModule.cs:150)
+UnityEngine.EventSystems.EventSystem:Update() (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\EventSystem.cs:263)
+ 
+(Filename: C Line: 0)
+
+I'm so great!
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 textFieldHandler:saveString(String) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\textFieldHandler.cs:35)
@@ -144,10 +195,17 @@ UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 SimpleStateMachine:SwitchStates(StateDelegate, StateDelegate, StateDelegate, String) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:37)
 SimpleStateMachine:SwitchStates(SimpleState) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:41)
+<<<<<<< HEAD
 PlayerStateManager:ConnectUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:102)
 SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
 PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:69)
 PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:54)
+=======
+PlayerStateManager:ConnectUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:109)
+SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
+PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:76)
+PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:61)
+>>>>>>> origin/Miranda
  
 (Filename: C Line: 0)
 
@@ -156,6 +214,7 @@ UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 SimpleStateMachine:SwitchStates(StateDelegate, StateDelegate, StateDelegate, String) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:37)
 SimpleStateMachine:SwitchStates(SimpleState) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:41)
+<<<<<<< HEAD
 PlayerStateManager:ConnectUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:102)
 SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
 PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:69)
@@ -164,6 +223,16 @@ PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\Con
 (Filename: C Line: 0)
 
 Tell us how you'rIe awesome.
+=======
+PlayerStateManager:ConnectUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:109)
+SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
+PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:76)
+PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:61)
+ 
+(Filename: C Line: 0)
+
+I'm so great!
+>>>>>>> origin/Miranda
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 textFieldHandler:saveString(String) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\textFieldHandler.cs:35)
@@ -182,6 +251,7 @@ UnityEngine.EventSystems.EventSystem:Update() (at C:\BuildAgent\work\d63dfc63851
  
 (Filename: C Line: 0)
 
+<<<<<<< HEAD
 points worth: 0
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
@@ -191,6 +261,20 @@ PlayerStateManager:PlayUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame
 SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
 PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:69)
 PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:54)
+=======
+multiplier feedback
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:86)
+UnityEngine.MonoBehaviour:StartCoroutine(String, Object)
+UnityEngine.MonoBehaviour:StartCoroutine(String) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:77)
+DictionaryManager:CheckDictionary(String) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:80)
+textFieldHandler:GetWorth() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\textFieldHandler.cs:43)
+PlayerStateManager:PlayUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:142)
+SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
+PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:76)
+PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:61)
+>>>>>>> origin/Miranda
  
 (Filename: C Line: 0)
 
@@ -198,6 +282,7 @@ sending points scored: 0
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 MainStateManager:SendPointsScored(Int32) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:151)
+<<<<<<< HEAD
 PlayerStateManager:PlayUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:137)
 SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
 PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:69)
@@ -214,6 +299,27 @@ PlayerStateManager:PlayUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame
 SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
 PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:69)
 PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:54)
+=======
+PlayerStateManager:PlayUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:144)
+SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
+PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:76)
+PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:61)
+ 
+(Filename: C Line: 0)
+
+multiplier feedback
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:86)
+UnityEngine.MonoBehaviour:StartCoroutine(String, Object)
+UnityEngine.MonoBehaviour:StartCoroutine(String) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:77)
+DictionaryManager:CheckDictionary(String) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:80)
+textFieldHandler:GetWorth() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\textFieldHandler.cs:43)
+PlayerStateManager:PlayUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:142)
+SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
+PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:76)
+PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:61)
+>>>>>>> origin/Miranda
  
 (Filename: C Line: 0)
 
@@ -221,6 +327,7 @@ sending points scored: 0
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 MainStateManager:SendPointsScored(Int32) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:151)
+<<<<<<< HEAD
 PlayerStateManager:PlayUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:137)
 SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
 PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:69)
@@ -229,6 +336,16 @@ PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\Con
 (Filename: C Line: 0)
 
 Tell us how you'rIe awesome.
+=======
+PlayerStateManager:PlayUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:144)
+SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
+PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:76)
+PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:61)
+ 
+(Filename: C Line: 0)
+
+I'm really awesome
+>>>>>>> origin/Miranda
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 textFieldHandler:saveString(String) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\textFieldHandler.cs:35)
@@ -247,6 +364,7 @@ UnityEngine.EventSystems.EventSystem:Update() (at C:\BuildAgent\work\d63dfc63851
  
 (Filename: C Line: 0)
 
+<<<<<<< HEAD
 points worth: 0
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
@@ -256,44 +374,60 @@ PlayerStateManager:PlayUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame
 SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
 PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:69)
 PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:54)
- 
-(Filename: C Line: 0)
-
-sending points scored: 0
+=======
+multiplier feedback
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-MainStateManager:SendPointsScored(Int32) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:151)
-PlayerStateManager:PlayUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:137)
-SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
-PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:69)
-PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:54)
- 
-(Filename: C Line: 0)
-
-points worth: 0
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-DictionaryManager:CheckDictionary(String) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:58)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:86)
+UnityEngine.MonoBehaviour:StartCoroutine(String, Object)
+UnityEngine.MonoBehaviour:StartCoroutine(String) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:77)
+DictionaryManager:CheckDictionary(String) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:80)
 textFieldHandler:GetWorth() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\textFieldHandler.cs:43)
-PlayerStateManager:PlayUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:135)
+PlayerStateManager:PlayUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:142)
 SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
-PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:69)
-PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:54)
+PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:76)
+PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:61)
  
 (Filename: C Line: 0)
 
-sending points scored: 0
+sending points scored: 16
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 MainStateManager:SendPointsScored(Int32) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:151)
-PlayerStateManager:PlayUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:137)
+PlayerStateManager:PlayUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:144)
 SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
-PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:69)
-PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:54)
+PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:76)
+PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:61)
  
 (Filename: C Line: 0)
 
-i
+multiplier feedback
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:86)
+UnityEngine.MonoBehaviour:StartCoroutine(String, Object)
+UnityEngine.MonoBehaviour:StartCoroutine(String) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:77)
+DictionaryManager:CheckDictionary(String) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:80)
+textFieldHandler:GetWorth() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\textFieldHandler.cs:43)
+PlayerStateManager:PlayUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:142)
+SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
+PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:76)
+PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:61)
+ 
+(Filename: C Line: 0)
+
+sending points scored: 3
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+MainStateManager:SendPointsScored(Int32) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:151)
+PlayerStateManager:PlayUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:144)
+SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
+PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:76)
+PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:61)
+ 
+(Filename: C Line: 0)
+
+I'm really awesome
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 textFieldHandler:saveString(String) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\textFieldHandler.cs:35)
@@ -303,6 +437,251 @@ UnityEngine.Events.UnityEventBase:Invoke(Object[]) (at C:\BuildAgent\work\d63dfc
 UnityEngine.Events.UnityEvent`1:Invoke(T0) (at C:\BuildAgent\work\d63dfc6385190b60\Runtime\Export\UnityEvent_1.cs:53)
 UnityEngine.UI.InputField:SendOnSubmit() (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\UI\Core\InputField.cs:1261)
 UnityEngine.UI.InputField:DeactivateInputField() (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\UI\Core\InputField.cs:1928)
+UnityEngine.UI.InputField:OnUpdateSelected(BaseEventData) (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\UI\Core\InputField.cs:954)
+UnityEngine.EventSystems.ExecuteEvents:Execute(IUpdateSelectedHandler, BaseEventData) (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\ExecuteEvents.cs:101)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1) (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\ExecuteEvents.cs:269)
+UnityEngine.EventSystems.StandaloneInputModule:SendUpdateEventToSelectedObject() (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\InputModules\StandaloneInputModule.cs:281)
+UnityEngine.EventSystems.StandaloneInputModule:Process() (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\InputModules\StandaloneInputModule.cs:150)
+UnityEngine.EventSystems.EventSystem:Update() (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\EventSystem.cs:263)
+ 
+(Filename: C Line: 0)
+
+multiplier feedback
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:86)
+UnityEngine.MonoBehaviour:StartCoroutine(String, Object)
+UnityEngine.MonoBehaviour:StartCoroutine(String) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:77)
+DictionaryManager:CheckDictionary(String) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:80)
+textFieldHandler:GetWorth() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\textFieldHandler.cs:43)
+PlayerStateManager:PlayUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:142)
+SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
+PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:76)
+PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:61)
+ 
+(Filename: C Line: 0)
+
+sending points scored: 2
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+MainStateManager:SendPointsScored(Int32) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:151)
+PlayerStateManager:PlayUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:144)
+SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
+PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:76)
+PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:61)
+ 
+(Filename: C Line: 0)
+
+multiplier feedback
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:86)
+UnityEngine.MonoBehaviour:StartCoroutine(String, Object)
+UnityEngine.MonoBehaviour:StartCoroutine(String) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:77)
+DictionaryManager:CheckDictionary(String) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:80)
+textFieldHandler:GetWorth() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\textFieldHandler.cs:43)
+PlayerStateManager:PlayUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:142)
+SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
+PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:76)
+PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:61)
+ 
+(Filename: C Line: 0)
+
+sending points scored: 1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+MainStateManager:SendPointsScored(Int32) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:151)
+PlayerStateManager:PlayUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:144)
+SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
+PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:76)
+PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:61)
+ 
+(Filename: C Line: 0)
+
+I'm really awesome
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+textFieldHandler:saveString(String) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\textFieldHandler.cs:35)
+UnityEngine.Events.InvokableCall`1:Invoke(Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\Runtime\Export\UnityEvent.cs:141)
+UnityEngine.Events.InvokableCallList:Invoke(Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\Runtime\Export\UnityEvent.cs:575)
+UnityEngine.Events.UnityEventBase:Invoke(Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\Runtime\Export\UnityEvent.cs:717)
+UnityEngine.Events.UnityEvent`1:Invoke(T0) (at C:\BuildAgent\work\d63dfc6385190b60\Runtime\Export\UnityEvent_1.cs:53)
+UnityEngine.UI.InputField:SendOnSubmit() (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\UI\Core\InputField.cs:1261)
+UnityEngine.UI.InputField:DeactivateInputField() (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\UI\Core\InputField.cs:1928)
+UnityEngine.UI.InputField:OnUpdateSelected(BaseEventData) (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\UI\Core\InputField.cs:954)
+UnityEngine.EventSystems.ExecuteEvents:Execute(IUpdateSelectedHandler, BaseEventData) (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\ExecuteEvents.cs:101)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1) (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\ExecuteEvents.cs:269)
+UnityEngine.EventSystems.StandaloneInputModule:SendUpdateEventToSelectedObject() (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\InputModules\StandaloneInputModule.cs:281)
+UnityEngine.EventSystems.StandaloneInputModule:Process() (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\InputModules\StandaloneInputModule.cs:150)
+UnityEngine.EventSystems.EventSystem:Update() (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\EventSystem.cs:263)
+ 
+(Filename: C Line: 0)
+
+multiplier feedback
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:86)
+UnityEngine.MonoBehaviour:StartCoroutine(String, Object)
+UnityEngine.MonoBehaviour:StartCoroutine(String) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:77)
+DictionaryManager:CheckDictionary(String) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:80)
+textFieldHandler:GetWorth() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\textFieldHandler.cs:43)
+PlayerStateManager:PlayUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:142)
+SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
+PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:76)
+PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:61)
+ 
+(Filename: C Line: 0)
+
+sending points scored: 0
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+MainStateManager:SendPointsScored(Int32) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:151)
+PlayerStateManager:PlayUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:144)
+SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
+PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:76)
+PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:61)
+ 
+(Filename: C Line: 0)
+
+multiplier feedback
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:86)
+UnityEngine.MonoBehaviour:StartCoroutine(String, Object)
+UnityEngine.MonoBehaviour:StartCoroutine(String) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:77)
+DictionaryManager:CheckDictionary(String) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:80)
+textFieldHandler:GetWorth() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\textFieldHandler.cs:43)
+PlayerStateManager:PlayUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:142)
+SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
+PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:76)
+PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:61)
+ 
+(Filename: C Line: 0)
+
+sending points scored: 0
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+MainStateManager:SendPointsScored(Int32) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:151)
+PlayerStateManager:PlayUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:144)
+SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
+PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:76)
+PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:61)
+ 
+(Filename: C Line: 0)
+
+I'm really awesome
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+textFieldHandler:saveString(String) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\textFieldHandler.cs:35)
+UnityEngine.Events.InvokableCall`1:Invoke(Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\Runtime\Export\UnityEvent.cs:141)
+UnityEngine.Events.InvokableCallList:Invoke(Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\Runtime\Export\UnityEvent.cs:575)
+UnityEngine.Events.UnityEventBase:Invoke(Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\Runtime\Export\UnityEvent.cs:717)
+UnityEngine.Events.UnityEvent`1:Invoke(T0) (at C:\BuildAgent\work\d63dfc6385190b60\Runtime\Export\UnityEvent_1.cs:53)
+UnityEngine.UI.InputField:SendOnSubmit() (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\UI\Core\InputField.cs:1261)
+UnityEngine.UI.InputField:DeactivateInputField() (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\UI\Core\InputField.cs:1928)
+UnityEngine.UI.InputField:OnUpdateSelected(BaseEventData) (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\UI\Core\InputField.cs:954)
+UnityEngine.EventSystems.ExecuteEvents:Execute(IUpdateSelectedHandler, BaseEventData) (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\ExecuteEvents.cs:101)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1) (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\ExecuteEvents.cs:269)
+UnityEngine.EventSystems.StandaloneInputModule:SendUpdateEventToSelectedObject() (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\InputModules\StandaloneInputModule.cs:281)
+UnityEngine.EventSystems.StandaloneInputModule:Process() (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\InputModules\StandaloneInputModule.cs:150)
+UnityEngine.EventSystems.EventSystem:Update() (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\EventSystem.cs:263)
+ 
+(Filename: C Line: 0)
+
+multiplier feedback
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:86)
+UnityEngine.MonoBehaviour:StartCoroutine(String, Object)
+UnityEngine.MonoBehaviour:StartCoroutine(String) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:77)
+DictionaryManager:CheckDictionary(String) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:80)
+textFieldHandler:GetWorth() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\textFieldHandler.cs:43)
+PlayerStateManager:PlayUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:142)
+SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
+PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:76)
+PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:61)
+>>>>>>> origin/Miranda
+ 
+(Filename: C Line: 0)
+
+sending points scored: 0
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+MainStateManager:SendPointsScored(Int32) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:151)
+<<<<<<< HEAD
+PlayerStateManager:PlayUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:137)
+SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
+PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:69)
+PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:54)
+ 
+(Filename: C Line: 0)
+
+points worth: 0
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+DictionaryManager:CheckDictionary(String) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:58)
+textFieldHandler:GetWorth() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\textFieldHandler.cs:43)
+PlayerStateManager:PlayUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:135)
+SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
+PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:69)
+PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:54)
+=======
+PlayerStateManager:PlayUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:144)
+SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
+PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:76)
+PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:61)
+ 
+(Filename: C Line: 0)
+
+multiplier feedback
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:86)
+UnityEngine.MonoBehaviour:StartCoroutine(String, Object)
+UnityEngine.MonoBehaviour:StartCoroutine(String) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:77)
+DictionaryManager:CheckDictionary(String) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:80)
+textFieldHandler:GetWorth() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\textFieldHandler.cs:43)
+PlayerStateManager:PlayUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:142)
+SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
+PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:76)
+PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:61)
+>>>>>>> origin/Miranda
+ 
+(Filename: C Line: 0)
+
+sending points scored: 0
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+MainStateManager:SendPointsScored(Int32) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:151)
+<<<<<<< HEAD
+PlayerStateManager:PlayUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:137)
+SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
+PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:69)
+PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:54)
+ 
+(Filename: C Line: 0)
+
+i
+=======
+PlayerStateManager:PlayUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:144)
+SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
+PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:76)
+PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:61)
+ 
+(Filename: C Line: 0)
+
+you should get to know me
+>>>>>>> origin/Miranda
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+textFieldHandler:saveString(String) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\textFieldHandler.cs:35)
+UnityEngine.Events.InvokableCall`1:Invoke(Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\Runtime\Export\UnityEvent.cs:141)
+UnityEngine.Events.InvokableCallList:Invoke(Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\Runtime\Export\UnityEvent.cs:575)
+UnityEngine.Events.UnityEventBase:Invoke(Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\Runtime\Export\UnityEvent.cs:717)
+UnityEngine.Events.UnityEvent`1:Invoke(T0) (at C:\BuildAgent\work\d63dfc6385190b60\Runtime\Export\UnityEvent_1.cs:53)
+UnityEngine.UI.InputField:SendOnSubmit() (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\UI\Core\InputField.cs:1261)
+UnityEngine.UI.InputField:DeactivateInputField() (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\UI\Core\InputField.cs:1928)
+<<<<<<< HEAD
 UnityEngine.UI.InputField:OnDeselect(BaseEventData) (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\UI\Core\InputField.cs:1938)
 UnityEngine.EventSystems.ExecuteEvents:Execute(IDeselectHandler, BaseEventData) (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\ExecuteEvents.cs:115)
 UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1) (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\ExecuteEvents.cs:269)
@@ -310,6 +689,279 @@ UnityEngine.EventSystems.EventSystem:SetSelectedGameObject(GameObject, BaseEvent
 UnityEngine.EventSystems.PointerInputModule:ClearSelection() (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\InputModules\PointerInputModule.cs:284)
 UnityEngine.EventSystems.StandaloneInputModule:DeactivateModule() (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\InputModules\StandaloneInputModule.cs:145)
 UnityEngine.EventSystems.EventSystem:OnDisable() (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\EventSystem.cs:204)
+=======
+UnityEngine.UI.InputField:OnUpdateSelected(BaseEventData) (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\UI\Core\InputField.cs:954)
+UnityEngine.EventSystems.ExecuteEvents:Execute(IUpdateSelectedHandler, BaseEventData) (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\ExecuteEvents.cs:101)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1) (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\ExecuteEvents.cs:269)
+UnityEngine.EventSystems.StandaloneInputModule:SendUpdateEventToSelectedObject() (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\InputModules\StandaloneInputModule.cs:281)
+UnityEngine.EventSystems.StandaloneInputModule:Process() (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\InputModules\StandaloneInputModule.cs:150)
+UnityEngine.EventSystems.EventSystem:Update() (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\EventSystem.cs:263)
+ 
+(Filename: C Line: 0)
+
+multiplier feedback
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:86)
+UnityEngine.MonoBehaviour:StartCoroutine(String, Object)
+UnityEngine.MonoBehaviour:StartCoroutine(String) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:77)
+DictionaryManager:CheckDictionary(String) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:80)
+textFieldHandler:GetWorth() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\textFieldHandler.cs:43)
+PlayerStateManager:PlayUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:142)
+SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
+PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:76)
+PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:61)
+ 
+(Filename: C Line: 0)
+
+sending points scored: 0
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+MainStateManager:SendPointsScored(Int32) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:151)
+PlayerStateManager:PlayUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:144)
+SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
+PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:76)
+PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:61)
+ 
+(Filename: C Line: 0)
+
+multiplier feedback
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:86)
+UnityEngine.MonoBehaviour:StartCoroutine(String, Object)
+UnityEngine.MonoBehaviour:StartCoroutine(String) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:77)
+DictionaryManager:CheckDictionary(String) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:80)
+textFieldHandler:GetWorth() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\textFieldHandler.cs:43)
+PlayerStateManager:PlayUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:142)
+SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
+PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:76)
+PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:61)
+ 
+(Filename: C Line: 0)
+
+sending points scored: 0
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+MainStateManager:SendPointsScored(Int32) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:151)
+PlayerStateManager:PlayUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:144)
+SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
+PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:76)
+PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:61)
+ 
+(Filename: C Line: 0)
+
+I'm phenomenal
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+textFieldHandler:saveString(String) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\textFieldHandler.cs:35)
+UnityEngine.Events.InvokableCall`1:Invoke(Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\Runtime\Export\UnityEvent.cs:141)
+UnityEngine.Events.InvokableCallList:Invoke(Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\Runtime\Export\UnityEvent.cs:575)
+UnityEngine.Events.UnityEventBase:Invoke(Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\Runtime\Export\UnityEvent.cs:717)
+UnityEngine.Events.UnityEvent`1:Invoke(T0) (at C:\BuildAgent\work\d63dfc6385190b60\Runtime\Export\UnityEvent_1.cs:53)
+UnityEngine.UI.InputField:SendOnSubmit() (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\UI\Core\InputField.cs:1261)
+UnityEngine.UI.InputField:DeactivateInputField() (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\UI\Core\InputField.cs:1928)
+UnityEngine.UI.InputField:OnUpdateSelected(BaseEventData) (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\UI\Core\InputField.cs:954)
+UnityEngine.EventSystems.ExecuteEvents:Execute(IUpdateSelectedHandler, BaseEventData) (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\ExecuteEvents.cs:101)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1) (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\ExecuteEvents.cs:269)
+UnityEngine.EventSystems.StandaloneInputModule:SendUpdateEventToSelectedObject() (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\InputModules\StandaloneInputModule.cs:281)
+UnityEngine.EventSystems.StandaloneInputModule:Process() (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\InputModules\StandaloneInputModule.cs:150)
+UnityEngine.EventSystems.EventSystem:Update() (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\EventSystem.cs:263)
+ 
+(Filename: C Line: 0)
+
+multiplier feedback
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:86)
+UnityEngine.MonoBehaviour:StartCoroutine(String, Object)
+UnityEngine.MonoBehaviour:StartCoroutine(String) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:77)
+DictionaryManager:CheckDictionary(String) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:80)
+textFieldHandler:GetWorth() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\textFieldHandler.cs:43)
+PlayerStateManager:PlayUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:142)
+SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
+PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:76)
+PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:61)
+ 
+(Filename: C Line: 0)
+
+sending points scored: 4
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+MainStateManager:SendPointsScored(Int32) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:151)
+PlayerStateManager:PlayUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:144)
+SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
+PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:76)
+PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:61)
+ 
+(Filename: C Line: 0)
+
+multiplier feedback
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:86)
+UnityEngine.MonoBehaviour:StartCoroutine(String, Object)
+UnityEngine.MonoBehaviour:StartCoroutine(String) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:77)
+DictionaryManager:CheckDictionary(String) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:80)
+textFieldHandler:GetWorth() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\textFieldHandler.cs:43)
+PlayerStateManager:PlayUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:142)
+SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
+PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:76)
+PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:61)
+ 
+(Filename: C Line: 0)
+
+sending points scored: 3
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+MainStateManager:SendPointsScored(Int32) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:151)
+PlayerStateManager:PlayUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:144)
+SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
+PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:76)
+PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:61)
+ 
+(Filename: C Line: 0)
+
+I'm really superior
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+textFieldHandler:saveString(String) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\textFieldHandler.cs:35)
+UnityEngine.Events.InvokableCall`1:Invoke(Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\Runtime\Export\UnityEvent.cs:141)
+UnityEngine.Events.InvokableCallList:Invoke(Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\Runtime\Export\UnityEvent.cs:575)
+UnityEngine.Events.UnityEventBase:Invoke(Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\Runtime\Export\UnityEvent.cs:717)
+UnityEngine.Events.UnityEvent`1:Invoke(T0) (at C:\BuildAgent\work\d63dfc6385190b60\Runtime\Export\UnityEvent_1.cs:53)
+UnityEngine.UI.InputField:SendOnSubmit() (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\UI\Core\InputField.cs:1261)
+UnityEngine.UI.InputField:DeactivateInputField() (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\UI\Core\InputField.cs:1928)
+UnityEngine.UI.InputField:OnUpdateSelected(BaseEventData) (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\UI\Core\InputField.cs:954)
+UnityEngine.EventSystems.ExecuteEvents:Execute(IUpdateSelectedHandler, BaseEventData) (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\ExecuteEvents.cs:101)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1) (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\ExecuteEvents.cs:269)
+UnityEngine.EventSystems.StandaloneInputModule:SendUpdateEventToSelectedObject() (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\InputModules\StandaloneInputModule.cs:281)
+UnityEngine.EventSystems.StandaloneInputModule:Process() (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\InputModules\StandaloneInputModule.cs:150)
+UnityEngine.EventSystems.EventSystem:Update() (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\EventSystem.cs:263)
+ 
+(Filename: C Line: 0)
+
+multiplier feedback
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:86)
+UnityEngine.MonoBehaviour:StartCoroutine(String, Object)
+UnityEngine.MonoBehaviour:StartCoroutine(String) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:77)
+DictionaryManager:CheckDictionary(String) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:80)
+textFieldHandler:GetWorth() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\textFieldHandler.cs:43)
+PlayerStateManager:PlayUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:142)
+SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
+PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:76)
+PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:61)
+ 
+(Filename: C Line: 0)
+
+sending points scored: 4
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+MainStateManager:SendPointsScored(Int32) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:151)
+PlayerStateManager:PlayUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:144)
+SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
+PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:76)
+PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:61)
+ 
+(Filename: C Line: 0)
+
+multiplier feedback
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:86)
+UnityEngine.MonoBehaviour:StartCoroutine(String, Object)
+UnityEngine.MonoBehaviour:StartCoroutine(String) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:77)
+DictionaryManager:CheckDictionary(String) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:80)
+textFieldHandler:GetWorth() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\textFieldHandler.cs:43)
+PlayerStateManager:PlayUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:142)
+SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
+PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:76)
+PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:61)
+ 
+(Filename: C Line: 0)
+
+sending points scored: 3
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+MainStateManager:SendPointsScored(Int32) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:151)
+PlayerStateManager:PlayUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:144)
+SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
+PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:76)
+PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:61)
+ 
+(Filename: C Line: 0)
+
+I'm the best winner super top
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+textFieldHandler:saveString(String) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\textFieldHandler.cs:35)
+UnityEngine.Events.InvokableCall`1:Invoke(Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\Runtime\Export\UnityEvent.cs:141)
+UnityEngine.Events.InvokableCallList:Invoke(Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\Runtime\Export\UnityEvent.cs:575)
+UnityEngine.Events.UnityEventBase:Invoke(Object[]) (at C:\BuildAgent\work\d63dfc6385190b60\Runtime\Export\UnityEvent.cs:717)
+UnityEngine.Events.UnityEvent`1:Invoke(T0) (at C:\BuildAgent\work\d63dfc6385190b60\Runtime\Export\UnityEvent_1.cs:53)
+UnityEngine.UI.InputField:SendOnSubmit() (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\UI\Core\InputField.cs:1261)
+UnityEngine.UI.InputField:DeactivateInputField() (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\UI\Core\InputField.cs:1928)
+UnityEngine.UI.InputField:OnUpdateSelected(BaseEventData) (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\UI\Core\InputField.cs:954)
+UnityEngine.EventSystems.ExecuteEvents:Execute(IUpdateSelectedHandler, BaseEventData) (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\ExecuteEvents.cs:101)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1) (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\ExecuteEvents.cs:269)
+UnityEngine.EventSystems.StandaloneInputModule:SendUpdateEventToSelectedObject() (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\InputModules\StandaloneInputModule.cs:281)
+UnityEngine.EventSystems.StandaloneInputModule:Process() (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\InputModules\StandaloneInputModule.cs:150)
+UnityEngine.EventSystems.EventSystem:Update() (at C:\BuildAgent\work\d63dfc6385190b60\Extensions\guisystem\guisystem\EventSystem\EventSystem.cs:263)
+ 
+(Filename: C Line: 0)
+
+multiplier feedback
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:86)
+UnityEngine.MonoBehaviour:StartCoroutine(String, Object)
+UnityEngine.MonoBehaviour:StartCoroutine(String) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:77)
+DictionaryManager:CheckDictionary(String) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:80)
+textFieldHandler:GetWorth() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\textFieldHandler.cs:43)
+PlayerStateManager:PlayUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:142)
+SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
+PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:76)
+PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:61)
+ 
+(Filename: C Line: 0)
+
+sending points scored: 64
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+MainStateManager:SendPointsScored(Int32) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:151)
+PlayerStateManager:PlayUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:144)
+SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
+PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:76)
+PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:61)
+ 
+(Filename: C Line: 0)
+
+multiplier feedback
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<MultiplierFeedback>c__Iterator0:MoveNext() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:86)
+UnityEngine.MonoBehaviour:StartCoroutine(String, Object)
+UnityEngine.MonoBehaviour:StartCoroutine(String) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:77)
+DictionaryManager:CheckDictionary(String) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\DictionaryManager.cs:80)
+textFieldHandler:GetWorth() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\textFieldHandler.cs:43)
+PlayerStateManager:PlayUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:142)
+SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
+PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:76)
+PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:61)
+ 
+(Filename: C Line: 0)
+
+sending points scored: 48
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+MainStateManager:SendPointsScored(Int32) (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\MainStateManager.cs:151)
+PlayerStateManager:PlayUpdate() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:144)
+SimpleStateMachine:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Infra\SimpleStateMachine.cs:14)
+PlayerStateManager:Execute() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:76)
+PlayerStateManager:Update() (at C:\Users\miran_000\Documents\GitHub\ConfGame\ConfidenceGame\Assets\Scripts\State Managers\PlayerStateManager.cs:61)
+>>>>>>> origin/Miranda
  
 (Filename: C Line: 0)
 
