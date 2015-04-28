@@ -136,7 +136,7 @@ public class PlayerStateManager : MonoBehaviour
 					MainStateManager.Instance.SendPointsScored(points);
 				}
 			//}
-		} else {
+		} else if(!winner) {
 			//if (opponentSprite.transform.position.x < 13.36) {
 				if (Input.GetKeyDown (KeyCode.Return)) {
 					int points = textFieldHandler.instance.GetWorth();

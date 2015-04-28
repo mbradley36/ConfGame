@@ -38,7 +38,7 @@ public class DictionaryManager : MonoBehaviour {
 						string[] positiveWord = line.Split(' ');
 						if(positiveWord.Length > 0) {
 							for(int i = 0; i < positiveWord.Length; i++){
-								d.Add(positiveWord[i], startingPointVal);
+								if(!d.ContainsKey(positiveWord[i])) d.Add(positiveWord[i], startingPointVal);
 							}
 						}
 					}
@@ -55,7 +55,7 @@ public class DictionaryManager : MonoBehaviour {
 		string[] words = sentence.Split (' ');
 		bool negative = false;
 		//Debug.Log (words.Length);
-		ArrayList multiples = new ArrayList ();
+		bool multiplierActive = false;
 		int points = 0;
 		if(words.Length > 1) {
 			for(int i = 0; i < words.Length; i++) {
@@ -67,29 +67,32 @@ public class DictionaryManager : MonoBehaviour {
 					points += worth;
 					if(worth > 0) positiveDictionary[words[i]] = worth-1;
 				}
-				if(multiplierDictionary.ContainsKey(words[i])) {
-					multiples.Add(startingPointVal);
+				if(!multiplierActive && multiplierDictionary.ContainsKey(words[i])) {
+					if(multiplierDictionary[words[i]]!=0) {
+						multiplierDictionary[words[i]] = 0;
+						multiplierActive = true;
+					}
 				}
 			}
 		}
-		if(words.Length > 7) multiples.Add(startingPointVal);
-		foreach(int i in multiples) {
-					points *= i;
-					StartCoroutine("MultiplierFeedback");
-		}
+		if(words.Length > 7) multiplierActive = true;
+		if(multiplierActive) points *= startingPointVal;
+		StartCoroutine("MultiplierFeedback");
 		//Debug.Log ("points worth: " + points);
 		return points;
 	}
 
 	IEnumerator MultiplierFeedback(){
+		Debug.Log ("multiplier feedback");
 		GameObject g = GameObject.Instantiate (feedbackObj) as GameObject;
-		float finalPos = g.transform.position.y + 10;
+		float finalPos = g.transform.position.y + 10f;
 		while(g.transform.position.y < finalPos) {
 			Vector3 modifiedPos = g.transform.position;
 			modifiedPos.y += 0.1f;
 			g.transform.position = modifiedPos;
-			yield return new WaitForSeconds(0.3f);
+			yield return new WaitForSeconds(0.5f);
 		}
+		GameObject.Destroy (g);
 		yield return new WaitForSeconds (0f);
 	}
 }
