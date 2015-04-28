@@ -41,6 +41,7 @@ public class textFieldHandler : MonoBehaviour {
 
 	public int GetWorth(){
 		int worth = DictionaryManager.instance.CheckDictionary (typed);
+		sentence.text = "";
 		return worth;
 	}
 
